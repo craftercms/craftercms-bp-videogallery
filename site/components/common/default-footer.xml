@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-footer</content-type>	<display-template>/templates/web/components/footer-component.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b054</objectGroupId>
+	<objectId>b0548ef1-b680-e004-58a5-9abf66bc7910</objectId>
+	<internal-name>Default Footer</internal-name>
+	<file-name>default-footer.xml</file-name>
+	<folder-name/>
+	<createdDate>2017-7-17T20:19:30.000Z</createdDate>
+	<createdDate_dt>2017-7-17T20:19:30.000Z</createdDate_dt>
+	<lastModifiedDate>2018-01-29T23:31:56.224Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-01-29T23:31:56.224Z</lastModifiedDate_dt>
+	<showCopyright>true</showCopyright>
+	<socialTitle>Social Media</socialTitle>
+	<socialOptions>	<item>	<show>true</show>
+	<url>#</url>
+	<socialSite>fa-facebook</socialSite>
+	<displayName>Facebook</displayName>
+	</item>	<item>	<show>true</show>
+	<url>#</url>
+	<socialSite>fa-youtube</socialSite>
+	<displayName>YouTube</displayName>
+	</item>	<item>	<show>true</show>
+	<url>#</url>
+	<socialSite>fa-google-plus</socialSite>
+	<displayName>G+</displayName>
+	</item></socialOptions>
+</component>

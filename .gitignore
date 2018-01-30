@@ -20,7 +20,7 @@
 
 # project release file
 /*.war
-
+.DS_Store
 # plugin release files
 /*.zip
 /plugin.xml

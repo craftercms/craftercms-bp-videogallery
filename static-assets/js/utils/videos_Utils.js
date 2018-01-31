@@ -110,10 +110,13 @@ function generateGridVideos(data){
         return html
     })
     container.append(videos)
-    $(".video-table").on("durationchange", function() {
+    setTimeout(function(){
+      $(".video-table").on("canplay", function() {
       const tablePlayer = videoHandler('.table-player-container');
       const tableVideos = timeLabelHandler('.video-table');
     })
+    },0)
+    
 }
 
 function searchVideos(start, videoText, path) {

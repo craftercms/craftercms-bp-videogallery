@@ -4,11 +4,20 @@ function videoHandler(videoClass){
         var video = document.getElementById('vid-'+formatedId)  
         var playerIcon =  document.getElementById('player-'+formatedId)
         var timeContainer = document.getElementById('time-'+formatedId)
-
         video.onseeked = function(){
           video.controls = true;
           video.paused = false;
           playerIcon.style.visibility = "hidden";
+        }
+        
+        video.onwebkitfullscreenchange = function(){
+        	if(!document.webkitFullscreenElement) {
+            	document.webkitExitFullscreen()
+                setTimeout(function(){
+                  $('.slider').slick('refresh')
+                  video.paused = false;
+                },500)
+            }  
         }
         
         video.onseeking = function(){
@@ -17,7 +26,7 @@ function videoHandler(videoClass){
           playerIcon.style.visibility = "hidden";
         }
 
-        video.onplaying = function() {
+        video.onplaying = function() {            	
           playerIcon.style.visibility = "hidden";
           video.paused = false;
           if(videoClass === '.carousel-player-container'){
@@ -89,7 +98,7 @@ function generateGridVideos(data){
 
 function searchVideos(start, videoText, path) {
 	currentSearchVale = videoText
-	var api = "/api/1/services/search.json?start="+start+"&searchValue="+videoText+"&path="+path
+	var api = "/api/1/services/search.json?start="+start+"&searchValue="+videoText.toLowerCase()+"&path="+path
     $.get(api)
       .done(function(data) {
            if(data) {

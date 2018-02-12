@@ -19,6 +19,7 @@
         </#if>
           <video id ="vid-carousel-${video.src.queryValue('folder-name')}" class="video-carousel" poster="${posterImage}" preload="auto">
             	<source src="${video.src.queryValue('video')}" type="video/mp4">
+                <source src="${video.src.queryValue('video')}" type="video/webm">
             	<p>Your browser does not support H.264/MP4.</p>
           </video>
           <div class="carousel-player-container" id="player-carousel-${video.src.queryValue('folder-name')}">

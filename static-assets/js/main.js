@@ -65,6 +65,7 @@ $(window).load(function() {
     folder
   */
   $('.slider').slick(getSliderConfig());
+
   
   /*
     This code is the one in charge of add the fearture

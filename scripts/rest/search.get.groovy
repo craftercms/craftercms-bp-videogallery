@@ -16,7 +16,6 @@ if(search == '') {
 }
 
 if(search == '' && (path != 'undefined' || path != " ")) {
-	println "entro"
 	recentVideosStatement = 'content-type:"/page/page-video" AND categories.item.key:"'+ path +'"'
 }
 

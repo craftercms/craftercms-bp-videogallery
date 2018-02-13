@@ -4,11 +4,19 @@ function videoHandler(videoClass){
         var video = document.getElementById('vid-'+formatedId)  
         var playerIcon =  document.getElementById('player-'+formatedId)
         var timeContainer = document.getElementById('time-'+formatedId)
+        
+        video.onseeking = function(){
+          video.controls = true;
+          video.paused = false;
+          playerIcon.style.visibility = "hidden";
+        }
+        
         video.onseeked = function(){
           video.controls = true;
           video.paused = false;
           playerIcon.style.visibility = "hidden";
         }
+        
         
         video.onwebkitfullscreenchange = function(){
         	if(!document.webkitFullscreenElement) {
@@ -20,11 +28,7 @@ function videoHandler(videoClass){
             }  
         }
         
-        video.onseeking = function(){
-          video.controls = true;
-          video.paused = false;
-          playerIcon.style.visibility = "hidden";
-        }
+       
 
         video.onplaying = function() {            	
           playerIcon.style.visibility = "hidden";

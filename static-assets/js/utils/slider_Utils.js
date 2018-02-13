@@ -1,7 +1,7 @@
 function getSliderConfig() {
     return {
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         dots: true,
         infinite: true,
         arrows: true,

@@ -1,10 +1,11 @@
-function sendMail(btn) {
-    var thisButton = $(btn);
+function sendMail() {
+    var thisButton = $('form-submit');
     alertify.set('notifier','position', 'top-right');
 
     if(!thisButton.hasClass("loading") && !thisButton.hasClass("done")){
       var frm = $("#contact");
       if (!frm[0].checkValidity()) {
+      	alertify.error('Please fill all the fields, or check the email format');
         frm.find('input[type=submit]').click()
       } else {
           var data = frm.serializeArray();

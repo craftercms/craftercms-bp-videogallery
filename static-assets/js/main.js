@@ -72,9 +72,9 @@ $(window).load(function() {
     of sending emails, the function sendMails can be found in
     mail_Utils.js inside Utilsfolder
   */
-  $("#form-submit").click(function(e){
+  $("#contact").submit(function(e){
     e.preventDefault();
-    sendMail(this)
+    sendMail()
   });
   
   /*

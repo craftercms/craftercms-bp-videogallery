@@ -28,23 +28,22 @@
 					    <form id="contact" action="/doContact" method="post">
 					    	<div>
 						    	<span><label>${contentModel.contactNameLabel}</label></span>
-						    	<span><input name = "name" id="name" type="text" value=""></span>
+						    	<span><input name="name" id="name" type="text" value="" required=""></span>
 						    </div>
 						    <div>
 						    	<span><label>${contentModel.contactEmailLabel}</label></span>
-						    	<span><input  name = "email"  id="email" type="text" value=""></span>
+						    	<span><input  name="email"  id="email" type="email" value="" required=""></span>
 						    </div>
 						    <div>
 						     	<span><label>${contentModel.contactMobileLabel}</label></span>
-						    	<span><input  name="mobile"  id="mobile" type="text" value=""></span>
+						    	<span><input  name="mobile"  id="mobile" type="text" value="" required=""></span>
 						    </div>
 						    <div>
 						    	<span><label>${contentModel.contactSubjectLabel}</label></span>
-						    	<span><textarea name="message" id="message" type="text"> </textarea></span>
+						    	<span><textarea name="message" id="message" type="text" required=""> </textarea></span>
 						    </div>
 						   <div>
                                 <input type="submit" id="form-submit" value="${contentModel.buttonSubmitTitle}">
-                                <input type="submit" value="Send message" style="display:none" />
 						  </div>
 					    </form>
 				    </div>

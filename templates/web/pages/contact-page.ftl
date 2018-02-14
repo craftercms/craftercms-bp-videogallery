@@ -40,7 +40,7 @@
 						    </div>
 						    <div>
 						    	<span><label>${contentModel.contactSubjectLabel}</label></span>
-						    	<span><textarea name="message" id="message" type="text" required=""> </textarea></span>
+						    	<span><textarea name="message" id="message" type="text" required=""></textarea></span>
 						    </div>
 						   <div>
                                 <input type="submit" id="form-submit" value="${contentModel.buttonSubmitTitle}">

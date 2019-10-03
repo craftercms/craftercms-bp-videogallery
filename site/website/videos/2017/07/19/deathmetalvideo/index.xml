@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/page-video</content-type>	<display-template>/templates/web/pages/video-page.ftl</display-template>
+	<content-type>/page/page-video</content-type>
+	<display-template>/templates/web/pages/video-page.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
 	<objectGroupId>ecef</objectGroupId>
 	<objectId>ecef1fff-d712-f07a-ca3a-9ce9e405fed2</objectId>
 	<file-name>index.xml</file-name>
@@ -10,14 +12,14 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<internal-name>deathmetalvideo</internal-name>
 	<title>deathmetalvideo</title>
-	<tags>	<item>	<tagName>deathmetalvideo</tagName>
+	<tags item-list="true">	<item>	<tagName>deathmetalvideo</tagName>
 	<tagUrl>#</tagUrl>
 	</item>	<item>	<tagName>deathmetalvideoTag</tagName>
 	<tagUrl>#</tagUrl>
 	</item></tags>
 	<description>deathmetalvideo</description>
 	<video>/static-assets/videos/big_buck_bunny.mp4</video>
-	<categories>	<item>	<key>/site/website/categories/music/rock/metal/deathmetal/index.xml</key>
+	<categories item-list="true">	<item>	<key>/site/website/categories/music/rock/metal/deathmetal/index.xml</key>
 	<value>deathmetal</value>
 	<include>/site/website/categories/music/rock/metal/deathmetal/index.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -36,8 +38,8 @@
 	</item></categories>
 	<createdDate>2018-01-10T17:25:04.253Z</createdDate>
 	<createdDate_dt>2018-01-10T17:25:04.253Z</createdDate_dt>
-	<lastModifiedDate>2018-02-08T17:42:35.082Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-02-08T17:42:35.082Z</lastModifiedDate_dt>
+	<lastModifiedDate>2019-10-03T18:16:03.140Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-03T18:16:03.140Z</lastModifiedDate_dt>
 	<featured>true</featured>
 	<author>Test Author </author>
 	<dateFormat>MMMM, yyyy</dateFormat>

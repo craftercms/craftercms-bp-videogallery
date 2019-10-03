@@ -8,7 +8,9 @@
 	<folder-name>earthvideo</folder-name>
 	<internal-name>earthvideo</internal-name>
 	<title>earthvideo</title>
-	<tags>earthvideo</tags>
+	<tags>	<item>	<tagName>earthvideo</tagName>
+	<tagUrl>#</tagUrl>
+	</item></tags>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<video>/static-assets/videos/big_buck_bunny.mp4</video>

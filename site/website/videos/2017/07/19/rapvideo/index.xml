@@ -8,7 +8,9 @@
 	<folder-name>rapvideo</folder-name>
 	<internal-name>rapvideo</internal-name>
 	<title>rapvideo</title>
-	<tags>rap</tags>
+	<tags>	<item>	<tagName>rapvideo</tagName>
+	<tagUrl>#</tagUrl>
+	</item></tags>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<description>rapvideo</description>

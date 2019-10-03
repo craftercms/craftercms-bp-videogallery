@@ -6,7 +6,9 @@
 	<objectId>77a14a6d-2878-6347-18b0-c2c26dccd1b3</objectId>
 	<internal-name>instrumentalvideo</internal-name>
 	<title>instrumentalvideo</title>
-	<tags>instrumentalvideo</tags>
+	<tags>	<item>	<tagName>instrumentalvideo</tagName>
+	<tagUrl>#</tagUrl>
+	</item></tags>
 	<file-name>index.xml</file-name>
 	<folder-name>instrumentalvideo</folder-name>
 	<placeInNav>false</placeInNav>

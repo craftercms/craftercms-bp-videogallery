@@ -8,7 +8,9 @@
 	<folder-name>spiderman</folder-name>
 	<internal-name>spiderman</internal-name>
 	<title>spiderman</title>
-	<tags>spiderman</tags>
+	<tags>	<item>	<tagName>spiderman</tagName>
+	<tagUrl>#</tagUrl>
+	</item></tags>
 	<description>spiderman</description>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>

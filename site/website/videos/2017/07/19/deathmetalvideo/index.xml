@@ -10,7 +10,11 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<internal-name>deathmetalvideo</internal-name>
 	<title>deathmetalvideo</title>
-	<tags>deathmetalvideo</tags>
+	<tags>	<item>	<tagName>deathmetalvideo</tagName>
+	<tagUrl>#</tagUrl>
+	</item>	<item>	<tagName>deathmetalvideoTag</tagName>
+	<tagUrl>#</tagUrl>
+	</item></tags>
 	<description>deathmetalvideo</description>
 	<video>/static-assets/videos/big_buck_bunny.mp4</video>
 	<categories>	<item>	<key>/site/website/categories/music/rock/metal/deathmetal/index.xml</key>

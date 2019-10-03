@@ -8,7 +8,9 @@
 	<folder-name>metalvideo</folder-name>
 	<internal-name>metalvideo</internal-name>
 	<title>metalvideo</title>
-	<tags>metalvideo</tags>
+	<tags>	<item>	<tagName>metalvideo</tagName>
+	<tagUrl>#</tagUrl>
+	</item></tags>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<description>metalvideo</description>

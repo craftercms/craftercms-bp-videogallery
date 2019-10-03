@@ -8,7 +8,9 @@
 	<folder-name>metallica</folder-name>
 	<internal-name>metallica</internal-name>
 	<title>metallica</title>
-	<tags>metallica</tags>
+	<tags>	<item>	<tagName>metallica</tagName>
+	<tagUrl>#</tagUrl>
+	</item></tags>
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>6000</orderDefault_f>
 	<description>metallica</description>

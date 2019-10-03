@@ -8,7 +8,9 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<internal-name>saw</internal-name>
 	<title>saw</title>
-	<tags>saw</tags>
+	<tags>	<item>	<tagName>saw</tagName>
+	<tagUrl>#</tagUrl>
+	</item></tags>
 	<file-name>index.xml</file-name>
 	<folder-name>saw</folder-name>
 	<description>saw</description>

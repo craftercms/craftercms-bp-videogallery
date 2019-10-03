@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/page-video</content-type>	<display-template>/templates/web/pages/video-page.ftl</display-template>
+	<content-type>/page/page-video</content-type>
+	<display-template>/templates/web/pages/video-page.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
 	<objectGroupId>024a</objectGroupId>
 	<objectId>024a38fd-d83b-38a9-1d46-99c107e9866d</objectId>
 	<file-name>index.xml</file-name>
 	<folder-name>metallica</folder-name>
 	<internal-name>metallica</internal-name>
 	<title>metallica</title>
-	<tags>	<item>	<tagName>metallica</tagName>
+	<tags item-list="true">	<item>	<tagName>metallica</tagName>
 	<tagUrl>#</tagUrl>
 	</item></tags>
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>6000</orderDefault_f>
 	<description>metallica</description>
 	<video>/static-assets/videos/big_buck_bunny.mp4</video>
-	<categories>	<item>	<key>/site/website/categories/music/index.xml</key>
+	<categories item-list="true">	<item>	<key>/site/website/categories/music/index.xml</key>
 	<value>music</value>
 	<include>/site/website/categories/music/index.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -27,8 +29,8 @@
 	<featured>true</featured>
 	<createdDate>2018-01-12T19:37:16.754Z</createdDate>
 	<createdDate_dt>2018-01-12T19:37:16.754Z</createdDate_dt>
-	<lastModifiedDate>2018-02-08T17:41:54.142Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-02-08T17:41:54.142Z</lastModifiedDate_dt>
+	<lastModifiedDate>2019-10-03T18:15:52.879Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-03T18:15:52.879Z</lastModifiedDate_dt>
 	<author>Emmanuel</author>
 	<dateFormat>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</dateFormat>
 	<duration>1:00</duration>

@@ -6,6 +6,8 @@
 	<file-extension>xml</file-extension>
 	<content-as-folder>true</content-as-folder>
 	<previewable>true</previewable>
+	<quickCreate>undefined</quickCreate>
+	<quickCreatePath>undefined</quickCreatePath>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
 </content-type>

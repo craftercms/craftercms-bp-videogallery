@@ -16,14 +16,14 @@
 	<socialOptions_o>	<item>	<show_b>true</show_b>
 	<url_s>#</url_s>
 	<socialSite_s>fa-facebook</socialSite_s>
-	<displayName>Facebook</displayName>
+	<displayName_t>Facebook</displayName_t>
 	</item>	<item>	<show_b>true</show_b>
 	<url_s>#</url_s>
 	<socialSite_s>fa-youtube</socialSite_s>
-	<displayName>YouTube</displayName>
+	<displayName_t>YouTube</displayName_t>
 	</item>	<item>	<show_b>true</show_b>
 	<url_s>#</url_s>
 	<socialSite_s>fa-google-plus</socialSite_s>
-	<displayName>G+</displayName>
+	<displayName_t>G+</displayName_t>
 	</item></socialOptions_o>
 </component>

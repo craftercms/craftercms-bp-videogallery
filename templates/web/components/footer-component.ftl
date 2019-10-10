@@ -9,7 +9,7 @@
                 <ul class="social">
                   <#list contentModel.socialOptions_o.item as media>
                     <#if media.show_b >
-                       <li><i class="fa-custom ${media.socialSite_s}"></i><a href="${media.url_s}">${media.displayName}</a></li>
+                       <li><i class="fa-custom ${media.socialSite_s}"></i><a href="${media.url_s}">${media.displayName_t}</a></li>
                     </#if>
                 </#list>
                 </ul>

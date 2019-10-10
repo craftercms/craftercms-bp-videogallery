@@ -13,15 +13,15 @@
 	<lastModifiedDate_dt>2018-01-29T23:31:56.224Z</lastModifiedDate_dt>
 	<showCopyright_b>true</showCopyright_b>
 	<socialTitle_t>Social Media</socialTitle_t>
-	<socialOptions_o>	<item>	<show>true</show>
+	<socialOptions_o>	<item>	<show_b>true</show_b>
 	<url>#</url>
 	<socialSite>fa-facebook</socialSite>
 	<displayName>Facebook</displayName>
-	</item>	<item>	<show>true</show>
+	</item>	<item>	<show_b>true</show_b>
 	<url>#</url>
 	<socialSite>fa-youtube</socialSite>
 	<displayName>YouTube</displayName>
-	</item>	<item>	<show>true</show>
+	</item>	<item>	<show_b>true</show_b>
 	<url>#</url>
 	<socialSite>fa-google-plus</socialSite>
 	<displayName>G+</displayName>

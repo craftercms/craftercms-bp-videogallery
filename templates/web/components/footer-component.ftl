@@ -8,7 +8,7 @@
         <h4>${contentModel.socialTitle_t}</h4>
                 <ul class="social">
                   <#list contentModel.socialOptions_o.item as media>
-                    <#if media.show == "true">
+                    <#if media.show_b >
                        <li><i class="fa-custom ${media.socialSite}"></i><a href="${media.url}">${media.displayName}</a></li>
                     </#if>
                 </#list>

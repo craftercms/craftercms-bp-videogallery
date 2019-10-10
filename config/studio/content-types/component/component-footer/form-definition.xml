@@ -185,7 +185,7 @@
                <fields>
                   <field>
                      <type>checkbox</type>
-                     <id>show</id>
+                     <id>show_b</id>
                      <iceId>visible</iceId>
                      <title>Show</title>
                      <description/>

@@ -5,7 +5,7 @@
     <div class="wrap">
         
         <div class="box1">
-        <h4>${contentModel.socialTitle}</h4>
+        <h4>${contentModel.socialTitle_t}</h4>
                 <ul class="social">
                   <#list contentModel.socialOptions.item as media>
                     <#if media.show == "true">

@@ -121,7 +121,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>socialTitle</id>
+               <id>socialTitle_t</id>
                <iceId>visible</iceId>
                <title>Social Title</title>
                <description/>

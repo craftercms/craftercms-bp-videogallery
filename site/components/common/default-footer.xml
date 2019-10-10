@@ -14,15 +14,15 @@
 	<showCopyright_b>true</showCopyright_b>
 	<socialTitle_t>Social Media</socialTitle_t>
 	<socialOptions_o>	<item>	<show_b>true</show_b>
-	<url>#</url>
+	<url_s>#</url_s>
 	<socialSite>fa-facebook</socialSite>
 	<displayName>Facebook</displayName>
 	</item>	<item>	<show_b>true</show_b>
-	<url>#</url>
+	<url_s>#</url_s>
 	<socialSite>fa-youtube</socialSite>
 	<displayName>YouTube</displayName>
 	</item>	<item>	<show_b>true</show_b>
-	<url>#</url>
+	<url_s>#</url_s>
 	<socialSite>fa-google-plus</socialSite>
 	<displayName>G+</displayName>
 	</item></socialOptions_o>

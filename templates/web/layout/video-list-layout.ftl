@@ -37,26 +37,26 @@
 
     <script id="video-table-template" type="text/x-handlebars-template">
     	<div class = "grid">
-            <h3>{{src.dom.page.title}}</h3>
-            <video id="vid-table-{{src.dom.page.folder-name}}" class="video-table" poster="{{src.dom.page.thumbnail}}" preload="auto">
-                <source src="{{src.dom.page.video}}" type="video/mp4">
+            <h3>{{title}}</h3>
+            <video id="vid-table-{{folder-name}}" class="video-table" poster="{{thumbnail}}" preload="auto">
+                <source src="{{video}}" type="video/mp4">
                 <p>Your browser does not support H.264/mp4</p>
             </video>
-            <div class="table-player-container" id="player-table-{{src.dom.page.folder-name}}">
+            <div class="table-player-container" id="player-table-{{folder-name}}">
                 <span><span>
             </div>
             <div class="watch" class="time-video-table">
                 <a href="{{videoUrl}}" class="share-anchor">Watch now</a>
             </div>
-            <div class="time" class="time-video-table" id="time-table-{{src.dom.page.folder-name}}">
-                <span id="span-table-{{src.dom.page.folder-name}}">{{src.dom.page.duration}}</span>
+            <div class="time" class="time-video-table" id="time-table-{{folder-name}}">
+                <span id="span-table-{{folder-name}}">{{duration}}</span>
             </div>
             <div class="grid-info">
                 <div class="clear"></div>
                 <div class="lables">
                     <p>Tags:
                          {{#each tags}}
-    						<a class="generic-tag" onClick="categoryRedirect('{{this}}')" title="Go to 'Watch now' for more information">{{this}}</a>
+    						<a class="generic-tag" onClick="categoryRedirect('{{this.tagName}}')" title="Go to 'Watch now' for more information">{{this.tagName}}</a>
   						 {{/each}}
                     </p>
                 </div>

@@ -1,50 +1,66 @@
 package scripts.utils
 
 import java.util.Properties
+import org.craftercms.engine.service.UrlTransformationService
+import org.elasticsearch.action.search.SearchRequest
+import org.elasticsearch.index.query.QueryBuilders
+import org.elasticsearch.search.builder.SearchSourceBuilder
+import org.elasticsearch.search.sort.FieldSortBuilder
+import org.elasticsearch.search.sort.SortOrder
 
+// TODO: remove
+import groovy.util.logging.Slf4j
+
+@Slf4j
 class VideosHelper {
 
-   def searchService
-   def siteItemService
-   def start
+  def searchService
+  def siteItemService
+  def start
 
-  VideosHelper(searchService, siteItemService, start) {
-    this.searchService = searchService
-    this.siteItemService = siteItemService
-    this.start = start
+  def elasticsearch
+  UrlTransformationService urlTransformationService
+
+  VideosHelper(elasticsearch, UrlTransformationService urlTransformationService, start) {
+    this.elasticsearch = elasticsearch
+    this.urlTransformationService = urlTransformationService
+    this.start = Integer.parseInt(start)
   }
-  
   
   def getVideoList(statement) {
-    def query = searchService.createQuery()
-    query = query.setQuery(statement)
-    query.setParam("sort", "createdDate_dt desc")
-    query.setParam("start", start)
-    query.setParam("rows", "10")
-  
-    def executedQuery = searchService.search(query)
-    def start = executedQuery.response.start
-    def itemsFound = executedQuery.response.numFound
-    def items = executedQuery.response.documents
-    
-    def videos = []
-    items.each { item ->
-        def id = item.localId
-        def video = siteItemService.getSiteItem(id)
-        def tagArr = item.get("tags.item.tagName")
-        def completeTagsArr = []
-        def tagUrl = item.get("tags.item.tagUrl")
+    def q = "${statement}"
 
-        if (tagArr){
-        for(def i = 0; i<= tagArr.size; i++) {
-          def completeTagObj = tagArr[i] ? ["tagName": tagArr[i], "tagUrl": tagUrl[i]] : ["tagName": null, "tagUrl": null]
-            completeTagsArr.add(completeTagObj)
-        }
-      }
-      def completeVideoObj = ["src": video, "tags": completeTagsArr]
-      videos.add(completeVideoObj)
+    def builder = new SearchSourceBuilder()
+      .query(QueryBuilders.queryStringQuery(q))
+      .from(start)
+      .size(10)
+      .sort(new FieldSortBuilder("createdDate_dt").order(SortOrder.DESC))
+
+    def result = elasticsearch.search(new SearchRequest().source(builder))
+
+    log.info("----------------------------------------RESULTS---------------------------------------------\n")
+    log.info("{}", result)
+    log.info("----------------------------------------RESULTS---------------------------------------------\n")
+
+    if(result.hits.hits) {
+      return processResults(result)
+    } else {
+      return []
     }
-    return ["totalCount": itemsFound, "responseVideos": videos, "selectedPage": (start/10)+1]
   }
 
+  private def processResults(result) {
+    def videos = []
+    def hits = result.hits.hits
+    def processedResults = [:]
+
+    if (hits) {
+      hits.each {hit ->
+        def video = hit.getSourceAsMap()
+        videos << video
+      }
+    }
+
+    return ["totalCount": videos.size(), "responseVideos": videos, "selectedPage": (start/10)+1]
+  }
 }

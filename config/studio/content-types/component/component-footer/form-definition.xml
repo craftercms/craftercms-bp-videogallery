@@ -251,7 +251,7 @@
                   </field>
                   <field>
                      <type>dropdown</type>
-                     <id>socialSite</id>
+                     <id>socialSite_s</id>
                      <iceId>visible</iceId>
                      <title>Social Site</title>
                      <description/>

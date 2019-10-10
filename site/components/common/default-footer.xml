@@ -15,15 +15,15 @@
 	<socialTitle_t>Social Media</socialTitle_t>
 	<socialOptions_o>	<item>	<show_b>true</show_b>
 	<url_s>#</url_s>
-	<socialSite>fa-facebook</socialSite>
+	<socialSite_s>fa-facebook</socialSite_s>
 	<displayName>Facebook</displayName>
 	</item>	<item>	<show_b>true</show_b>
 	<url_s>#</url_s>
-	<socialSite>fa-youtube</socialSite>
+	<socialSite_s>fa-youtube</socialSite_s>
 	<displayName>YouTube</displayName>
 	</item>	<item>	<show_b>true</show_b>
 	<url_s>#</url_s>
-	<socialSite>fa-google-plus</socialSite>
+	<socialSite_s>fa-google-plus</socialSite_s>
 	<displayName>G+</displayName>
 	</item></socialOptions_o>
 </component>

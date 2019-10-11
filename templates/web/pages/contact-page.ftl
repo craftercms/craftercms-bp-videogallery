@@ -8,18 +8,18 @@
 			<div class="section group">				
 				<div class="col span_1_of_3">
 					<div class="contact_info">
-			    	 	<h3>${contentModel.locationTitle}</h3>
+			    	 	<h3>${contentModel.locationTitle_t}</h3>
 			    	 		<div class="map">
 					   			 <div class="ourmap" style="height:175px"></div>
 					   		</div>
       				</div>
       			<div class="company_address">
-				     	<h3>${contentModel.informationTitle}</h3>
-						    	<p>${contentModel.companyMainAddress},</p>
-						   		<p>${contentModel.companySecondAddress}</p>
-				   		<p>Phone: ${contentModel.companyPhone}</p>
-				   		<p>Fax: ${contentModel.companyFax}</p>
-				 	 	<p>Email: <span><a href="mailto:${contentModel.companyEmail}">${contentModel.companyEmail}</a></span></p>
+				     	<h3>${contentModel.informationTitle_t}</h3>
+						    	<p>${contentModel.companyMainAddress_t},</p>
+						   		<p>${contentModel.companySecondAddress_t}</p>
+				   		<p>Phone: ${contentModel.companyPhone_t}</p>
+				   		<p>Fax: ${contentModel.companyFax_t}</p>
+				 	 	<p>Email: <span><a href="mailto:${contentModel.companyEmail_t}">${contentModel.companyEmail_t}</a></span></p>
 				   </div>
 				</div>				
 				<div class="col span_2_of_3">

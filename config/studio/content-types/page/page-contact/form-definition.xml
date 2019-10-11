@@ -393,7 +393,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>locationTitle</id>
+               <id>locationTitle_t</id>
                <iceId>visible</iceId>
                <title>Location Title</title>
                <description/>
@@ -436,7 +436,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>informationTitle</id>
+               <id>informationTitle_t</id>
                <iceId>visible</iceId>
                <title>Information Title</title>
                <description/>
@@ -479,7 +479,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>companyMainAddress</id>
+               <id>companyMainAddress_t</id>
                <iceId>visible</iceId>
                <title>Company Main Address</title>
                <description/>
@@ -522,7 +522,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>companySecondAddress</id>
+               <id>companySecondAddress_t</id>
                <iceId>visible</iceId>
                <title>Company Second Address</title>
                <description/>
@@ -565,7 +565,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>companyPhone</id>
+               <id>companyPhone_t</id>
                <iceId>visible</iceId>
                <title>Company Phone</title>
                <description/>
@@ -608,7 +608,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>companyFax</id>
+               <id>companyFax_t</id>
                <iceId>visible</iceId>
                <title>Company Fax</title>
                <description/>
@@ -651,7 +651,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>companyEmail</id>
+               <id>companyEmail_t</id>
                <iceId>visible</iceId>
                <title>Company Email</title>
                <description/>

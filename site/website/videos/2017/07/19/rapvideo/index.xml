@@ -9,7 +9,7 @@
 	<internal-name>rapvideo</internal-name>
 	<title_t>rapvideo</title_t>
 	<tags_o>	<item>	<tagName_t>rapvideo</tagName_t>
-	<tagUrl>#</tagUrl>
+	<tagUrl_s>#</tagUrl_s>
 	</item></tags_o>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>

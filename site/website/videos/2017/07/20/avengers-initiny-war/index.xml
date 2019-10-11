@@ -27,13 +27,13 @@
 	</item></categories_o>
 	<featured>true</featured>
 	<tags_o>	<item>	<tagName_t>Marvel</tagName_t>
-	<tagUrl>www.marvel.com</tagUrl>
+	<tagUrl_s>www.marvel.com</tagUrl_s>
 	</item>	<item>	<tagName_t>Avengers</tagName_t>
-	<tagUrl>www.avengers.com</tagUrl>
+	<tagUrl_s>www.avengers.com</tagUrl_s>
 	</item>	<item>	<tagName_t>MCU</tagName_t>
-	<tagUrl>www.test.com</tagUrl>
+	<tagUrl_s>www.test.com</tagUrl_s>
 	</item>	<item>	<tagName_t>test</tagName_t>
-	<tagUrl>#</tagUrl>
+	<tagUrl_s>#</tagUrl_s>
 	</item></tags_o>
 	<createdDate>2018-01-15T21:05:01.524Z</createdDate>
 	<createdDate_dt>2018-01-15T21:05:01.524Z</createdDate_dt>

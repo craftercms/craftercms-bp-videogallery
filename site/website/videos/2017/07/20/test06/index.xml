@@ -27,9 +27,9 @@
 	<lastModifiedDate>2018-02-08T17:52:21.905Z</lastModifiedDate>
 	<lastModifiedDate_dt>2018-02-08T17:52:21.905Z</lastModifiedDate_dt>
 	<tags_o>	<item>	<tagName_t>test06</tagName_t>
-	<tagUrl>#</tagUrl>
+	<tagUrl_s>#</tagUrl_s>
 	</item>	<item>	<tagName_t>testTag06</tagName_t>
-	<tagUrl>#</tagUrl>
+	<tagUrl_s>#</tagUrl_s>
 	</item></tags_o>
 	<author_t>Emmanuel</author_t>
 	<dateFormat_s>MM-dd-yyyy</dateFormat_s>

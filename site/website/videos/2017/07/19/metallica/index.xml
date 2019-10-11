@@ -11,7 +11,7 @@
 	<internal-name>metallica</internal-name>
 	<title_t>metallica</title_t>
 	<tags item-list="true">	<item>	<tagName_t>metallica</tagName_t>
-	<tagUrl>#</tagUrl>
+	<tagUrl_s>#</tagUrl_s>
 	</item></tags>
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>6000</orderDefault_f>

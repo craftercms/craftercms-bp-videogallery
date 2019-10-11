@@ -19,9 +19,9 @@
 	</item></categories_o>
 	<featured>true</featured>
 	<tags_o>	<item>	<tagName_t>test05</tagName_t>
-	<tagUrl>#</tagUrl>
+	<tagUrl_s>#</tagUrl_s>
 	</item>	<item>	<tagName_t>test05Tag</tagName_t>
-	<tagUrl>#</tagUrl>
+	<tagUrl_s>#</tagUrl_s>
 	</item></tags_o>
 	<createdDate>2018-01-22T22:28:44.319Z</createdDate>
 	<createdDate_dt>2018-01-22T22:28:44.319Z</createdDate_dt>

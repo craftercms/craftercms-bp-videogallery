@@ -9,7 +9,7 @@
 	<internal-name>avengers</internal-name>
 	<title_t>Avengers</title_t>
 	<tags_o>	<item>	<tagName_t>movies</tagName_t>
-	<tagUrl>#</tagUrl>
+	<tagUrl_s>#</tagUrl_s>
 	</item></tags_o>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>

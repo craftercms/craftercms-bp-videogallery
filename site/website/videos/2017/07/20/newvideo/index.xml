@@ -19,11 +19,11 @@
 	</item></categories_o>
 	<featured>true</featured>
 	<tags_o>	<item>	<tagName_t>tag1</tagName_t>
-	<tagUrl>#</tagUrl>
+	<tagUrl_s>#</tagUrl_s>
 	</item>	<item>	<tagName_t>tag2</tagName_t>
-	<tagUrl>#</tagUrl>
+	<tagUrl_s>#</tagUrl_s>
 	</item>	<item>	<tagName_t>tag3</tagName_t>
-	<tagUrl>#</tagUrl>
+	<tagUrl_s>#</tagUrl_s>
 	</item></tags_o>
 	<createdDate>2018-01-22T18:46:57.450Z</createdDate>
 	<createdDate_dt>2018-01-22T18:46:57.450Z</createdDate_dt>

@@ -30,7 +30,7 @@
         <a href="${utils.renderURL(video.localId)}" data-test="">Watch now</a>
       </div>
       <div class="time" id="time-carousel-${video['folder-name']}">
-        <span class= "time-video-carousel" id="span-carousel-${video['folder-name']}">${video.duration}</span>
+        <span class= "time-video-carousel" id="span-carousel-${video['folder-name']}">${video.duration_s}</span>
       </div>
       <div class="grid-info">
         <div class="clear"> </div>        

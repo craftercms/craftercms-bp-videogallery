@@ -333,7 +333,7 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>duration</id>
+					<id>duration_s</id>
 					<iceId>visible</iceId>
 					<title>Duration</title>
 					<description></description>

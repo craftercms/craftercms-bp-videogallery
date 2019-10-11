@@ -31,6 +31,6 @@
 	<featured>false</featured>
 	<author_t>Emmanuel</author_t>
 	<dateFormat>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</dateFormat>
-	<duration>0:05</duration>
+	<duration_s>0:05</duration_s>
 	<thumbnail_s>/static-assets/images/background.png</thumbnail_s>
 </page>

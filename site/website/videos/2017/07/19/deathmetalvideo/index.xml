@@ -43,6 +43,6 @@
 	<featured>true</featured>
 	<author_t>Test Author </author_t>
 	<dateFormat>MMMM, yyyy</dateFormat>
-	<duration>1:00</duration>
+	<duration_s>1:00</duration_s>
 	<thumbnail_s>/static-assets/images/background.png</thumbnail_s>
 </page>

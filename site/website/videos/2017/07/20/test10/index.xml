@@ -30,5 +30,5 @@
 	<dateFormat>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</dateFormat>
 	<author_t>Emmanuel</author_t>
 	<thumbnail_s>/static-assets/images/wallpaper2.png</thumbnail_s>
-	<duration>1:00</duration>
+	<duration_s>1:00</duration_s>
 </page>

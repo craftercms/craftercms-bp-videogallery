@@ -13,9 +13,9 @@
 	<internal-name>deathmetalvideo</internal-name>
 	<title_t>deathmetalvideo</title_t>
 	<tags item-list="true">	<item>	<tagName_t>deathmetalvideo</tagName_t>
-	<tagUrl>#</tagUrl>
+	<tagUrl_s>#</tagUrl_s>
 	</item>	<item>	<tagName_t>deathmetalvideoTag</tagName_t>
-	<tagUrl>#</tagUrl>
+	<tagUrl_s>#</tagUrl_s>
 	</item></tags>
 	<description_t>deathmetalvideo</description_t>
 	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>

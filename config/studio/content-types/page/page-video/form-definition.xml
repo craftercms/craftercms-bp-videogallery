@@ -521,7 +521,7 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>tagUrl</id>
+					<id>tagUrl_s</id>
 					<iceId>visible</iceId>
 					<title>Tag Url</title>
 					<description></description>

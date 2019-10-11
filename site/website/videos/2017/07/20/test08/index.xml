@@ -18,11 +18,11 @@
 	<disableFlattening>false</disableFlattening>
 	</item></categories_o>
 	<featured>true</featured>
-	<tags_o>	<item>	<tagName>test08</tagName>
+	<tags_o>	<item>	<tagName_t>test08</tagName_t>
 	<tagUrl>#</tagUrl>
-	</item>	<item>	<tagName>test081</tagName>
+	</item>	<item>	<tagName_t>test081</tagName_t>
 	<tagUrl>#</tagUrl>
-	</item>	<item>	<tagName>test07</tagName>
+	</item>	<item>	<tagName_t>test07</tagName_t>
 	<tagUrl>#</tagUrl>
 	</item></tags_o>
 	<createdDate>2018-01-23T17:36:32.253Z</createdDate>

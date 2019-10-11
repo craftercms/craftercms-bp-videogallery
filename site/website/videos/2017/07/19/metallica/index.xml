@@ -10,7 +10,7 @@
 	<folder-name>metallica</folder-name>
 	<internal-name>metallica</internal-name>
 	<title_t>metallica</title_t>
-	<tags item-list="true">	<item>	<tagName>metallica</tagName>
+	<tags item-list="true">	<item>	<tagName_t>metallica</tagName_t>
 	<tagUrl>#</tagUrl>
 	</item></tags>
 	<placeInNav>true</placeInNav>

@@ -8,7 +8,7 @@
 	<folder-name>rockvideo</folder-name>
 	<internal-name>rockVideo</internal-name>
 	<title_t>rockVideo</title_t>
-	<tags_o>	<item>	<tagName>rockvideo</tagName>
+	<tags_o>	<item>	<tagName_t>rockvideo</tagName_t>
 	<tagUrl>#</tagUrl>
 	</item></tags_o>
 	<placeInNav>false</placeInNav>

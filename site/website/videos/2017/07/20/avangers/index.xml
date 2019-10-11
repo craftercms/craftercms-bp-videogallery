@@ -8,7 +8,7 @@
 	<folder-name>avangers</folder-name>
 	<internal-name>avengers</internal-name>
 	<title_t>Avengers</title_t>
-	<tags_o>	<item>	<tagName>movies</tagName>
+	<tags_o>	<item>	<tagName_t>movies</tagName_t>
 	<tagUrl>#</tagUrl>
 	</item></tags_o>
 	<placeInNav>false</placeInNav>

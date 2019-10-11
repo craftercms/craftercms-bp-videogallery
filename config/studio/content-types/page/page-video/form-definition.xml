@@ -478,7 +478,7 @@
 					<fields>
 				<field>
 					<type>input</type>
-					<id>tagName</id>
+					<id>tagName_t</id>
 					<iceId>visible</iceId>
 					<title>Tag Name</title>
 					<description></description>

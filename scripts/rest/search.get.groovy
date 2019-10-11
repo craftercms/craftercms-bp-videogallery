@@ -18,13 +18,13 @@ logger.info("-------------------------------------------------------------------
 if(search == '') {
 	recentVideosStatement = "content-type:\"/page/page-video\""
 } else if(path == ' ' || path == 'undefined'){
-	// recentVideosStatement = 'content-type:"/page/page-video" AND (internal-name: *'+ search +'* OR tags_o.item.tagName: *'+search+'*)'
+	// recentVideosStatement = 'content-type:"/page/page-video" AND (internal-name: *'+ search +'* OR tags_o.item.tagName_t: *'+search+'*)'
 	// recentVideosStatement = "content-type:\"/page/page-video\" AND title_t: \".*" + search + ".*\""
 	
 	recentVideosStatement = "title_t: \".*" + search + ".*\""
 	// recentVideosStatement = "title_t: \"" + search + "\""
 } else {
-	// recentVideosStatement = 'content-type:"/page/page-video" AND categories_o.item.key:"'+ path +'" AND (internal-name: *'+ search +'* OR tags_o.item.tagName: *'+search+'*)'
+	// recentVideosStatement = 'content-type:"/page/page-video" AND categories_o.item.key:"'+ path +'" AND (internal-name: *'+ search +'* OR tags_o.item.tagName_t: *'+search+'*)'
 	// recentVideosStatement = "content-type:\"/page/page-video\" AND internal-name: \".*" + search + ".*\""
 	recentVideosStatement = "content-type:\"/page/page-video\""
 }

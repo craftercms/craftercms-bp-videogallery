@@ -12,9 +12,9 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<internal-name>deathmetalvideo</internal-name>
 	<title_t>deathmetalvideo</title_t>
-	<tags item-list="true">	<item>	<tagName>deathmetalvideo</tagName>
+	<tags item-list="true">	<item>	<tagName_t>deathmetalvideo</tagName_t>
 	<tagUrl>#</tagUrl>
-	</item>	<item>	<tagName>deathmetalvideoTag</tagName>
+	</item>	<item>	<tagName_t>deathmetalvideoTag</tagName_t>
 	<tagUrl>#</tagUrl>
 	</item></tags>
 	<description_t>deathmetalvideo</description_t>

@@ -20,9 +20,9 @@
 	<disableFlattening>false</disableFlattening>
 	</item></categories_o>
 	<featured>true</featured>
-	<tags_o>	<item>	<tagName>test14</tagName>
+	<tags_o>	<item>	<tagName_t>test14</tagName_t>
 	<tagUrl>#</tagUrl>
-	</item>	<item>	<tagName>test15</tagName>
+	</item>	<item>	<tagName_t>test15</tagName_t>
 	<tagUrl>#</tagUrl>
 	</item></tags_o>
 	<createdDate>2018-02-01T21:14:26.245Z</createdDate>

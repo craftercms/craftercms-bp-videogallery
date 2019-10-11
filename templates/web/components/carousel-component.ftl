@@ -39,7 +39,7 @@
           	<#if video.tags_o.item??>
                   <#list video.tags_o.item as tag>
                   	<#if tag??>
-                      <a onClick="categoryRedirect('${tag.tagName}')" title="Go to 'Watch now' for more information">${tag.tagName}</a>,
+                      <a onClick="categoryRedirect('${tag.tagName_t}')" title="Go to 'Watch now' for more information">${tag.tagName_t}</a>,
                     </#if>
                   </#list>
                   <#else>

@@ -26,13 +26,13 @@
 	<disableFlattening>false</disableFlattening>
 	</item></categories_o>
 	<featured>true</featured>
-	<tags_o>	<item>	<tagName>Music</tagName>
+	<tags_o>	<item>	<tagName_t>Music</tagName_t>
 	<tagUrl>#</tagUrl>
-	</item>	<item>	<tagName>Metal</tagName>
+	</item>	<item>	<tagName_t>Metal</tagName_t>
 	<tagUrl>#</tagUrl>
-	</item>	<item>	<tagName>Eddie</tagName>
+	</item>	<item>	<tagName_t>Eddie</tagName_t>
 	<tagUrl>#</tagUrl>
-	</item>	<item>	<tagName>British</tagName>
+	</item>	<item>	<tagName_t>British</tagName_t>
 	<tagUrl>#</tagUrl>
 	</item></tags_o>
 	<createdDate>2018-01-12T23:20:52.490Z</createdDate>

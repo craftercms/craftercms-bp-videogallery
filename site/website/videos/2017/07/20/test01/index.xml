@@ -8,7 +8,7 @@
 	<folder-name>test01</folder-name>
 	<internal-name>test01</internal-name>
 	<title_t>test01</title_t>
-	<tags_o>	<item>	<tagName>test01</tagName>
+	<tags_o>	<item>	<tagName_t>test01</tagName_t>
 	<tagUrl>#</tagUrl>
 	</item></tags_o>
 	<placeInNav>false</placeInNav>

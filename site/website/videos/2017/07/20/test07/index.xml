@@ -18,9 +18,9 @@
 	<disableFlattening>false</disableFlattening>
 	</item></categories_o>
 	<featured>true</featured>
-	<tags_o>	<item>	<tagName>test07</tagName>
+	<tags_o>	<item>	<tagName_t>test07</tagName_t>
 	<tagUrl>#</tagUrl>
-	</item>	<item>	<tagName>tagTest07</tagName>
+	</item>	<item>	<tagName_t>tagTest07</tagName_t>
 	<tagUrl>#</tagUrl>
 	</item></tags_o>
 	<createdDate>2018-01-22T22:33:04.040Z</createdDate>

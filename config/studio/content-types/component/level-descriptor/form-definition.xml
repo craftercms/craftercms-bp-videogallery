@@ -405,7 +405,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>longitude</id>
+               <id>longitude_s</id>
                <iceId/>
                <title>Longitude</title>
                <description/>

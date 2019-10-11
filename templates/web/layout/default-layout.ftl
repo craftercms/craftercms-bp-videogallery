@@ -76,13 +76,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </script>
     <script>
       var locationLatitude = ${contentModel.latitude_s};
-      var locationLongitude = ${contentModel.longitude};
+      var locationLongitude = ${contentModel.longitude_s};
       var alertMsg = "";
       if( !(-85<locationLatitude && locationLatitude<85) ){
         alertMsg += "Invalid latitude. Must be between -85 and 85.\n";
       }
       if( !(-180<locationLongitude && locationLongitude<180) ){
-        alertMsg += "Invalid longitude. Must be between -180 and 180.\n";
+        alertMsg += "Invalid longitude_s. Must be between -180 and 180.\n";
       }
       if( alertMsg ){
         alert( alertMsg );
@@ -106,7 +106,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       });
       map.addMarker({
         lat: ${contentModel.latitude_s},
-        lng: ${contentModel.longitude}
+        lng: ${contentModel.longitude_s}
       });
     </script>
     <@studio.toolSupport/>

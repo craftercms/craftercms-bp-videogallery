@@ -21,7 +21,7 @@
 	<disableFlattening>false</disableFlattening>
 	</item></defaultFooter_o>
 	<recentVideosLabel_t>Videos</recentVideosLabel_t>
-	<mostViewVideosLabel>Most View Videos</mostViewVideosLabel>
+	<mostViewVideosLabel_t>Most View Videos</mostViewVideosLabel_t>
 	<contactEmails_o>	<item>	<email_s>emmanuel.hidalgo@rivetlogic.com</email_s>
 	</item>	<item>	<email_s>emmanuel_1693@hotmail.es</email_s>
 	</item></contactEmails_o>

@@ -279,7 +279,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>mostViewVideosLabel</id>
+               <id>mostViewVideosLabel_t</id>
                <iceId/>
                <title>Most View Videos Label</title>
                <description/>

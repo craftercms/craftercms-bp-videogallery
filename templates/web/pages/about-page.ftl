@@ -9,7 +9,7 @@
 				<div class="col span_1_of_3">
 					<div class="contact_info">
 			    	 	<h3>${contentModel.imageTitle_t}</h3>
-							<img src="${contentModel.image}"></img>
+							<img src="${contentModel.image_s}"></img>
       				</div>
 				</div>				
 				<div class="col span_2_of_3">

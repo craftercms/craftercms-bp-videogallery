@@ -27,6 +27,6 @@
 &lt;/div&gt;
 &lt;/div&gt;</mainInformation_html>
 	<mainInformationTitle_t>About Our Site</mainInformationTitle_t>
-	<image>/static-assets/images/g1.jpg</image>
+	<image_s>/static-assets/images/g1.jpg</image_s>
 	<imageTitle_t>Just Keep Watching</imageTitle_t>
 </page>

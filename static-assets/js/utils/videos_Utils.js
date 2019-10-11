@@ -85,14 +85,15 @@ function generateGridVideos(data) {
   }
   const videos = data.responseVideos.map(function (video) {
     video.videoUrl = generateVideoUrl(video.localId)
-    video.tags = Array.isArray(video.tags.item) ? video.tags.item : [video.tags.item];
+    if ( video.tags_o ) {
+      video.tags = Array.isArray(video.tags_o.item) ? video.tags_o.item : [video.tags_o.item];
+    }
     var content = document.getElementById("video-table-template")
     if (!content) return
     var source = content.innerHTML;
     var template = Handlebars.compile(source);
     var context = video;
     var html = template(context);
-    console.log(video);
     return html;
   })
   container.append(videos)
@@ -146,12 +147,9 @@ function requestVideos(start, categoryPath) {
 }
 
 function categoryRedirect(tagName) {
-  console.log(tagName)
   currentSearchVale = tagName
   localStorage.removeItem('jstree');
   localStorage.setItem('tagName', tagName)
   window.location.replace("/categories");
 
 }
-
-

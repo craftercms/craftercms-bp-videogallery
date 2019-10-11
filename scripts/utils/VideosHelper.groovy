@@ -8,10 +8,6 @@ import org.elasticsearch.search.builder.SearchSourceBuilder
 import org.elasticsearch.search.sort.FieldSortBuilder
 import org.elasticsearch.search.sort.SortOrder
 
-// TODO: remove
-import groovy.util.logging.Slf4j
-
-@Slf4j
 class VideosHelper {
 
   def searchService
@@ -37,10 +33,6 @@ class VideosHelper {
       .sort(new FieldSortBuilder("createdDate_dt").order(SortOrder.DESC))
 
     def result = elasticsearch.search(new SearchRequest().source(builder))
-
-    log.info("----------------------------------------RESULTS---------------------------------------------\n")
-    log.info("{}", result)
-    log.info("----------------------------------------RESULTS---------------------------------------------\n")
 
     if(result.hits.hits) {
       return processResults(result)

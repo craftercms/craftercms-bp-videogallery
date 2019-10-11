@@ -12,14 +12,14 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<internal-name>deathmetalvideo</internal-name>
 	<title_t>deathmetalvideo</title_t>
-	<tags item-list="true">	<item>	<tagName_t>deathmetalvideo</tagName_t>
+	<tags_o item-list="true">	<item>	<tagName_t>deathmetalvideo</tagName_t>
 	<tagUrl_s>#</tagUrl_s>
 	</item>	<item>	<tagName_t>deathmetalvideoTag</tagName_t>
 	<tagUrl_s>#</tagUrl_s>
-	</item></tags>
+	</item></tags_o>
 	<description_t>deathmetalvideo</description_t>
 	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
-	<categories item-list="true">	<item>	<key>/site/website/categories/music/rock/metal/deathmetal/index.xml</key>
+	<categories_o item-list="true">	<item>	<key>/site/website/categories/music/rock/metal/deathmetal/index.xml</key>
 	<value>deathmetal</value>
 	<include>/site/website/categories/music/rock/metal/deathmetal/index.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -35,7 +35,7 @@
 	<value>rock</value>
 	<include>/site/website/categories/music/rock/index.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></categories>
+	</item></categories_o>
 	<createdDate>2018-01-10T17:25:04.253Z</createdDate>
 	<createdDate_dt>2018-01-10T17:25:04.253Z</createdDate_dt>
 	<lastModifiedDate>2019-10-03T19:13:00.733Z</lastModifiedDate>

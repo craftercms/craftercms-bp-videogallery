@@ -121,7 +121,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>mainInformationTitle</id>
+               <id>mainInformationTitle_t</id>
                <iceId>visible</iceId>
                <title>Main Information Title</title>
                <description/>

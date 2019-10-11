@@ -28,5 +28,5 @@
 	<duration>1:00</duration>
 	<dateFormat>MMMM dd, yyyy</dateFormat>
 	<featured>false</featured>
-	<thumbnail>/static-assets/images/background.png</thumbnail>
+	<thumbnail_s>/static-assets/images/background.png</thumbnail_s>
 </page>

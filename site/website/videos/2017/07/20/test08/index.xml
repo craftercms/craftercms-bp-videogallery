@@ -32,5 +32,5 @@
 	<author_t>Author Test</author_t>
 	<dateFormat>MMMM, yyyy</dateFormat>
 	<duration>1:00</duration>
-	<thumbnail>/static-assets/images/background.png</thumbnail>
+	<thumbnail_s>/static-assets/images/background.png</thumbnail_s>
 </page>

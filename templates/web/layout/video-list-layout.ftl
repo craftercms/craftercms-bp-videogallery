@@ -38,7 +38,7 @@
     <script id="video-table-template" type="text/x-handlebars-template">
     	<div class = "grid">
             <h3>{{title_t}}</h3>
-            <video id="vid-table-{{folder-name}}" class="video-table" poster="{{thumbnail}}" preload="auto">
+            <video id="vid-table-{{folder-name}}" class="video-table" poster="{{thumbnail_s}}" preload="auto">
                 <source src="{{video_s}}" type="video/mp4">
                 <p>Your browser does not support H.264/mp4</p>
             </video>

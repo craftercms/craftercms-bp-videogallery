@@ -20,8 +20,8 @@
         </div>
         <div class="video-inner">
             <#assign posterImage="">
-            <#if contentModel.thumbnail??>
-                <#assign posterImage="${contentModel.thumbnail}">
+            <#if contentModel.thumbnail_s??>
+                <#assign posterImage="${contentModel.thumbnail_s}">
             </#if>
             <video controls poster="${posterImage}" preload="auto">
             	<source src="${model.video_s}" type="video/mp4">

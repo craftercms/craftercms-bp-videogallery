@@ -42,5 +42,5 @@
 	<author_t>Emmanuel</author_t>
 	<dateFormat>yyyy-MM-dd</dateFormat>
 	<duration>1:00</duration>
-	<thumbnail>/static-assets/images/wallpaper2.png</thumbnail>
+	<thumbnail_s>/static-assets/images/wallpaper2.png</thumbnail_s>
 </page>

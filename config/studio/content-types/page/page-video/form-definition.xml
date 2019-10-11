@@ -285,7 +285,7 @@
 				</field>
 				<field>
 					<type>image-picker</type>
-					<id>thumbnail</id>
+					<id>thumbnail_s</id>
 					<iceId>visible</iceId>
 					<title>Thumbnail</title>
 					<description></description>

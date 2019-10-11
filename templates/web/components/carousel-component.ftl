@@ -14,8 +14,8 @@
     <div class="grid">
       <h3>${video.title_t}</h3>
       <#assign posterImage="">
-      <#if video.thumbnail??>
-        <#assign posterImage="${video.thumbnail}">
+      <#if video.thumbnail_s??>
+        <#assign posterImage="${video.thumbnail_s}">
       </#if>
       <video id ="vid-carousel-${video['folder-name']}" class="video-carousel" poster="${posterImage}" preload="auto">
         <source src="${video.video_s}" type="video/mp4">

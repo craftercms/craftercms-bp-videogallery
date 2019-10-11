@@ -236,7 +236,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>recentVideosLabel</id>
+               <id>recentVideosLabel_t</id>
                <iceId/>
                <title>Recent Videos Label</title>
                <description/>

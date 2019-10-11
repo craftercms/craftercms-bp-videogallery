@@ -20,7 +20,7 @@
 	<include>/site/components/common/default-footer.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></defaultFooter_o>
-	<recentVideosLabel>Videos</recentVideosLabel>
+	<recentVideosLabel_t>Videos</recentVideosLabel_t>
 	<mostViewVideosLabel>Most View Videos</mostViewVideosLabel>
 	<contactEmails_o>	<item>	<email_s>emmanuel.hidalgo@rivetlogic.com</email_s>
 	</item>	<item>	<email_s>emmanuel_1693@hotmail.es</email_s>

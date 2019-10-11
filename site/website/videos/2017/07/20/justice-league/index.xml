@@ -8,9 +8,9 @@
 	<folder-name>justice-league</folder-name>
 	<internal-name>justice league</internal-name>
 	<title_t>Justice League</title_t>
-	<tags>	<item>	<tagName>justiceleague</tagName>
+	<tags_o>	<item>	<tagName>justiceleague</tagName>
 	<tagUrl>#</tagUrl>
-	</item></tags>
+	</item></tags_o>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<description_t>Justice League</description_t>

@@ -26,7 +26,7 @@
 	<disableFlattening>false</disableFlattening>
 	</item></categories_o>
 	<featured>true</featured>
-	<tags>	<item>	<tagName>Marvel</tagName>
+	<tags_o>	<item>	<tagName>Marvel</tagName>
 	<tagUrl>www.marvel.com</tagUrl>
 	</item>	<item>	<tagName>Avengers</tagName>
 	<tagUrl>www.avengers.com</tagUrl>
@@ -34,7 +34,7 @@
 	<tagUrl>www.test.com</tagUrl>
 	</item>	<item>	<tagName>test</tagName>
 	<tagUrl>#</tagUrl>
-	</item></tags>
+	</item></tags_o>
 	<createdDate>2018-01-15T21:05:01.524Z</createdDate>
 	<createdDate_dt>2018-01-15T21:05:01.524Z</createdDate_dt>
 	<lastModifiedDate>2018-02-08T17:47:01.307Z</lastModifiedDate>

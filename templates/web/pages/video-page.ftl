@@ -45,8 +45,8 @@
         <div class="tags">
           <ul>
               <li><h3>Tags:</h3></li>
-              <#if contentModel.tags.item??>
-                <#list contentModel.tags.item as tag>
+              <#if contentModel.tags_o.item??>
+                <#list contentModel.tags_o.item as tag>
                     <li><a onClick="categoryRedirect('${tag.tagName}')">${tag.tagName}</a> ,</li>
                 </#list>
               </#if>

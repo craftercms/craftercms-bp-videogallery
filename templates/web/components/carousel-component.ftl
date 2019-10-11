@@ -36,8 +36,8 @@
         <div class="clear"> </div>        
         <div class="lables">
           <p>Tags:
-          	<#if video.tags.item??>
-                  <#list video.tags.item as tag>
+          	<#if video.tags_o.item??>
+                  <#list video.tags_o.item as tag>
                   	<#if tag??>
                       <a onClick="categoryRedirect('${tag.tagName}')" title="Go to 'Watch now' for more information">${tag.tagName}</a>,
                     </#if>

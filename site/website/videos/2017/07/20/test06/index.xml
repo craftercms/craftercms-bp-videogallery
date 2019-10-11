@@ -26,11 +26,11 @@
 	<createdDate_dt>2018-01-22T22:30:30.445Z</createdDate_dt>
 	<lastModifiedDate>2018-02-08T17:52:21.905Z</lastModifiedDate>
 	<lastModifiedDate_dt>2018-02-08T17:52:21.905Z</lastModifiedDate_dt>
-	<tags>	<item>	<tagName>test06</tagName>
+	<tags_o>	<item>	<tagName>test06</tagName>
 	<tagUrl>#</tagUrl>
 	</item>	<item>	<tagName>testTag06</tagName>
 	<tagUrl>#</tagUrl>
-	</item></tags>
+	</item></tags_o>
 	<author_t>Emmanuel</author_t>
 	<dateFormat_s>MM-dd-yyyy</dateFormat_s>
 	<duration_s>1:00</duration_s>

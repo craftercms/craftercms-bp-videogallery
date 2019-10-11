@@ -26,7 +26,7 @@
 	<disableFlattening>false</disableFlattening>
 	</item></categories_o>
 	<featured>true</featured>
-	<tags>	<item>	<tagName>Music</tagName>
+	<tags_o>	<item>	<tagName>Music</tagName>
 	<tagUrl>#</tagUrl>
 	</item>	<item>	<tagName>Metal</tagName>
 	<tagUrl>#</tagUrl>
@@ -34,7 +34,7 @@
 	<tagUrl>#</tagUrl>
 	</item>	<item>	<tagName>British</tagName>
 	<tagUrl>#</tagUrl>
-	</item></tags>
+	</item></tags_o>
 	<createdDate>2018-01-12T23:20:52.490Z</createdDate>
 	<createdDate_dt>2018-01-12T23:20:52.490Z</createdDate_dt>
 	<lastModifiedDate>2018-02-08T17:43:36.695Z</lastModifiedDate>

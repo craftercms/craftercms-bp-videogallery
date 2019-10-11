@@ -8,9 +8,9 @@
 	<folder-name>macvideo</folder-name>
 	<internal-name>macvideo</internal-name>
 	<title_t>macvideo</title_t>
-	<tags>	<item>	<tagName>macvideo</tagName>
+	<tags_o>	<item>	<tagName>macvideo</tagName>
 	<tagUrl>#</tagUrl>
-	</item></tags>
+	</item></tags_o>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<description_t>macvideo</description_t>

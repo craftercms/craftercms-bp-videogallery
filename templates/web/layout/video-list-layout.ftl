@@ -55,7 +55,7 @@
                 <div class="clear"></div>
                 <div class="lables">
                     <p>Tags:
-                         {{#each tags}}
+                         {{#each tags_o}}
     						<a class="generic-tag" onClick="categoryRedirect('{{this.tagName}}')" title="Go to 'Watch now' for more information">{{this.tagName}}</a>
   						 {{/each}}
                     </p>

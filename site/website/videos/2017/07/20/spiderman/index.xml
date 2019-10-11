@@ -35,6 +35,6 @@
 	<lastModifiedDate_dt>2018-02-08T17:49:48.824Z</lastModifiedDate_dt>
 	<author_t>Emmanuel</author_t>
 	<duration_s>1:00</duration_s>
-	<dateFormat>EEEE, MMMM dd, yyyy, hh:mm a</dateFormat>
+	<dateFormat_s>EEEE, MMMM dd, yyyy, hh:mm a</dateFormat_s>
 	<thumbnail_s>/static-assets/images/wallpaper2.png</thumbnail_s>
 </page>

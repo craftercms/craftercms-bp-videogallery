@@ -32,7 +32,7 @@
 	<tagUrl>#</tagUrl>
 	</item></tags>
 	<author_t>Emmanuel</author_t>
-	<dateFormat>MM-dd-yyyy</dateFormat>
+	<dateFormat_s>MM-dd-yyyy</dateFormat_s>
 	<duration_s>1:00</duration_s>
 	<thumbnail_s>/static-assets/images/wallpaper2.png</thumbnail_s>
 </page>

@@ -30,7 +30,7 @@
 	<lastModifiedDate_dt>2018-02-08T17:50:39.315Z</lastModifiedDate_dt>
 	<featured>false</featured>
 	<author_t>Emmanuel</author_t>
-	<dateFormat>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</dateFormat>
+	<dateFormat_s>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</dateFormat_s>
 	<duration_s>0:05</duration_s>
 	<thumbnail_s>/static-assets/images/background.png</thumbnail_s>
 </page>

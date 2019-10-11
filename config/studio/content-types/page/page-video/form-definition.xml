@@ -376,7 +376,7 @@
 				</field>
 				<field>
 					<type>dropdown</type>
-					<id>dateFormat</id>
+					<id>dateFormat_s</id>
 					<iceId>visible</iceId>
 					<title>Date Format</title>
 					<description></description>

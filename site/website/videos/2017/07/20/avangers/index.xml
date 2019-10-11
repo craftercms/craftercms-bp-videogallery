@@ -34,7 +34,7 @@
 	<lastModifiedDate_dt>2018-02-08T17:46:33.287Z</lastModifiedDate_dt>
 	<featured>true</featured>
 	<author_t>Emmanuel</author_t>
-	<dateFormat>MM-dd-yyyy, hh:mm a</dateFormat>
+	<dateFormat_s>MM-dd-yyyy, hh:mm a</dateFormat_s>
 	<duration_s>1:00</duration_s>
 	<thumbnail_s>/static-assets/images/background.png</thumbnail_s>
 </page>

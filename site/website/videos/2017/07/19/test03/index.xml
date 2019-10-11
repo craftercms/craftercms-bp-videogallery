@@ -26,7 +26,7 @@
 	<lastModifiedDate_dt>2018-02-08T17:45:52.912Z</lastModifiedDate_dt>
 	<author_t>Emmanuel</author_t>
 	<duration_s>1:00</duration_s>
-	<dateFormat>MMMM dd, yyyy</dateFormat>
+	<dateFormat_s>MMMM dd, yyyy</dateFormat_s>
 	<featured>false</featured>
 	<thumbnail_s>/static-assets/images/background.png</thumbnail_s>
 </page>

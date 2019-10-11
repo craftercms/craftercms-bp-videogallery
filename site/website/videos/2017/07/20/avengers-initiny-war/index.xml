@@ -39,7 +39,7 @@
 	<createdDate_dt>2018-01-15T21:05:01.524Z</createdDate_dt>
 	<lastModifiedDate>2018-02-08T17:47:01.307Z</lastModifiedDate>
 	<lastModifiedDate_dt>2018-02-08T17:47:01.307Z</lastModifiedDate_dt>
-	<dateFormat>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</dateFormat>
+	<dateFormat_s>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</dateFormat_s>
 	<author_t>Emmanuel</author_t>
 	<thumbnail_s>/static-assets/images/background.png</thumbnail_s>
 	<duration_s>2:45</duration_s>

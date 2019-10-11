@@ -13,7 +13,7 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<description_t>Test video 14</description_t>
 	<video_s>/static-assets/videos/small.mp4</video_s>
-	<dateFormat>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</dateFormat>
+	<dateFormat_s>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</dateFormat_s>
 	<categories>	<item>	<key>/site/website/categories/science/index.xml</key>
 	<value>Science</value>
 	<include>/site/website/categories/science/index.xml</include>

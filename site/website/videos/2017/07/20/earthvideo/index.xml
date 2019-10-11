@@ -27,6 +27,6 @@
 	<featured>true</featured>
 	<author_t>Emmanuel</author_t>
 	<duration_s>1:00</duration_s>
-	<dateFormat>MMMM dd, yyyy</dateFormat>
+	<dateFormat_s>MMMM dd, yyyy</dateFormat_s>
 	<thumbnail_s>/static-assets/images/wallpaper2.png</thumbnail_s>
 </page>

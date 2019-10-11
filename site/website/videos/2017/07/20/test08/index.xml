@@ -30,7 +30,7 @@
 	<lastModifiedDate>2018-02-08T17:53:10.034Z</lastModifiedDate>
 	<lastModifiedDate_dt>2018-02-08T17:53:10.034Z</lastModifiedDate_dt>
 	<author_t>Author Test</author_t>
-	<dateFormat>MMMM, yyyy</dateFormat>
+	<dateFormat_s>MMMM, yyyy</dateFormat_s>
 	<duration_s>1:00</duration_s>
 	<thumbnail_s>/static-assets/images/background.png</thumbnail_s>
 </page>

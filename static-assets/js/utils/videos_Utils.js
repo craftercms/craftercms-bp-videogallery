@@ -73,7 +73,7 @@ function generateGridVideos(data) {
   var container = $("#gridContainer")
 
   container.empty();
-  if (data.responseVideos.length === 0) {
+  if (data.length === 0) {
     var content = document.getElementById("no-results-table-template")
     if (!content) return
     var source = content.innerHTML;
@@ -94,9 +94,11 @@ function generateGridVideos(data) {
     var template = Handlebars.compile(source);
     var context = video;
     var html = template(context);
+        
     return html;
   })
   container.append(videos)
+
   $(".video-table").on("durationchange", function () {
     var tablePlayer = videoHandler('.table-player-container');
   })
@@ -118,6 +120,7 @@ function searchVideos(start, videoText, path) {
           generatePagination((data.totalCount / 10) + 1, data.selectedPage)
           handlePagination()
           $('#input-search-text').val(currentSearchVale)
+          window.amplify && window.amplify.publish('INIT_ICE_REGIONS');
         })
       }
     })
@@ -138,6 +141,7 @@ function requestVideos(start, categoryPath) {
           $("#gridContainer").css("display", "block");
           generatePagination((data.totalCount / 10) + 1, data.selectedPage)
           handlePagination()
+          window.amplify && window.amplify.publish('INIT_ICE_REGIONS');
         })
       }
     })

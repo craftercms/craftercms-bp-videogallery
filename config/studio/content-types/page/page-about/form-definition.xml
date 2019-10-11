@@ -164,7 +164,7 @@
             </field>
             <field>
                <type>rte</type>
-               <id>mainInformation</id>
+               <id>mainInformation_html</id>
                <iceId>visible</iceId>
                <title>Main Information</title>
                <description/>

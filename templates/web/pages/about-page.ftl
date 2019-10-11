@@ -15,7 +15,7 @@
 				<div class="col span_2_of_3">
 				  <div class="contact-form">
 				  	<h3>${contentModel.mainInformationTitle_t}</h3>
-                    	${contentModel.mainInformation}
+                    	${contentModel.mainInformation_html}
 				    </div>
   				</div>				
 			  </div>

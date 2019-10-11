@@ -22,8 +22,8 @@
 	</item></defaultFooter>
 	<recentVideosLabel>Videos</recentVideosLabel>
 	<mostViewVideosLabel>Most View Videos</mostViewVideosLabel>
-	<contactEmails_o>	<item>	<email>emmanuel.hidalgo@rivetlogic.com</email>
-	</item>	<item>	<email>emmanuel_1693@hotmail.es</email>
+	<contactEmails_o>	<item>	<email_s>emmanuel.hidalgo@rivetlogic.com</email_s>
+	</item>	<item>	<email_s>emmanuel_1693@hotmail.es</email_s>
 	</item></contactEmails_o>
 	<shareinsocialnetworks>	<item>	<key>googleplus</key>
 	<value_smv>Google Plus</value_smv>

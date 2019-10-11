@@ -81,7 +81,7 @@
                <fields>
                   <field>
                      <type>input</type>
-                     <id>email</id>
+                     <id>email_s</id>
                      <iceId/>
                      <title>Email</title>
                      <description/>

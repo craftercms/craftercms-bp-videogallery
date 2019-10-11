@@ -128,7 +128,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>contactFormTitle</id>
+               <id>contactFormTitle_t</id>
                <iceId>visible</iceId>
                <title>Contact Form Title</title>
                <description/>
@@ -171,7 +171,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>contactNameLabel</id>
+               <id>contactNameLabel_t</id>
                <iceId>visible</iceId>
                <title>Contact Name Label</title>
                <description/>
@@ -214,7 +214,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>contactEmailLabel</id>
+               <id>contactEmailLabel_t</id>
                <iceId>visible</iceId>
                <title>Contact Email Label</title>
                <description/>
@@ -257,7 +257,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>contactMobileLabel</id>
+               <id>contactMobileLabel_t</id>
                <iceId>visible</iceId>
                <title>Contact Mobile Label</title>
                <description/>
@@ -300,7 +300,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>contactSubjectLabel</id>
+               <id>contactSubjectLabel_t</id>
                <iceId>visible</iceId>
                <title>Contact Subject Label</title>
                <description/>
@@ -343,7 +343,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>buttonSubmitTitle</id>
+               <id>buttonSubmitTitle_t</id>
                <iceId>visible</iceId>
                <title>Button Submit Title</title>
                <description/>

@@ -5,7 +5,7 @@
 <div class="header">
     <!----start-Logo---->
     <div class="logo">
-        <a href="${model.headerImageUrl}"><img src="${model.headerImage}" title="logo" /></a>
+        <a href="${model.headerImageUrl_s}"><img src="${model.headerImage_s}" title="logo" /></a>
     </div>
     <!----End-Logo---->
     <!----start-top-nav---->

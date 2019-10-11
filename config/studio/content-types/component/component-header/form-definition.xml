@@ -88,7 +88,7 @@
             </field>
             <field>
                <type>image-picker</type>
-               <id>headerImage</id>
+               <id>headerImage_s</id>
                <iceId>visible</iceId>
                <title>Header Image</title>
                <description/>
@@ -136,7 +136,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>headerImageUrl</id>
+               <id>headerImageUrl_s</id>
                <iceId/>
                <title>Header Image Url</title>
                <description/>

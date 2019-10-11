@@ -24,26 +24,26 @@
 				</div>				
 				<div class="col span_2_of_3">
 				  <div class="contact-form">
-				  	<h3>${contentModel.contactFormTitle}</h3>
+				  	<h3>${contentModel.contactFormTitle_t}</h3>
 					    <form id="contact" action="/doContact" method="post">
 					    	<div>
-						    	<span><label>${contentModel.contactNameLabel}</label></span>
+						    	<span><label>${contentModel.contactNameLabel_t}</label></span>
 						    	<span><input name="name" id="name" type="text" value="" required=""></span>
 						    </div>
 						    <div>
-						    	<span><label>${contentModel.contactEmailLabel}</label></span>
+						    	<span><label>${contentModel.contactEmailLabel_t}</label></span>
 						    	<span><input  name="email"  id="email" type="email" value="" required=""></span>
 						    </div>
 						    <div>
-						     	<span><label>${contentModel.contactMobileLabel}</label></span>
+						     	<span><label>${contentModel.contactMobileLabel_t}</label></span>
 						    	<span><input  name="mobile"  id="mobile" type="text" value="" required=""></span>
 						    </div>
 						    <div>
-						    	<span><label>${contentModel.contactSubjectLabel}</label></span>
+						    	<span><label>${contentModel.contactSubjectLabel_t}</label></span>
 						    	<span><textarea name="message" id="message" type="text" required=""></textarea></span>
 						    </div>
 						   <div>
-                                <input type="submit" id="form-submit" value="${contentModel.buttonSubmitTitle}">
+                                <input type="submit" id="form-submit" value="${contentModel.buttonSubmitTitle_t}">
 						  </div>
 					    </form>
 				    </div>

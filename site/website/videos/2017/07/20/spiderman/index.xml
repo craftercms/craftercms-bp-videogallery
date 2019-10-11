@@ -14,7 +14,7 @@
 	<description_t>spiderman</description_t>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<video>/static-assets/videos/big_buck_bunny.mp4</video>
+	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
 	<categories>	<item>	<key>/site/website/categories/movies/action/index.xml</key>
 	<value>action</value>
 	<include>/site/website/categories/movies/action/index.xml</include>

@@ -18,8 +18,8 @@
         <#assign posterImage="${video.thumbnail}">
       </#if>
       <video id ="vid-carousel-${video['folder-name']}" class="video-carousel" poster="${posterImage}" preload="auto">
-        <source src="${video.video}" type="video/mp4">
-          <source src="${video.video}" type="video/webm">
+        <source src="${video.video_s}" type="video/mp4">
+          <source src="${video.video_s}" type="video/webm">
         <p>Your browser does not support H.264/MP4.</p>
       </video>
 

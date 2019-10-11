@@ -14,7 +14,7 @@
 	<file-name>index.xml</file-name>
 	<folder-name>saw</folder-name>
 	<description_t>saw</description_t>
-	<video>/static-assets/videos/big_buck_bunny.mp4</video>
+	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
 	<categories>	<item>	<key>/site/website/categories/movies/index.xml</key>
 	<value>movies</value>
 	<include>/site/website/categories/movies/index.xml</include>

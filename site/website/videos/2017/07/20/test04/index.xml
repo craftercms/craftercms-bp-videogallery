@@ -6,7 +6,7 @@
 	<objectId>f25ad902-dd88-63ba-c81f-12d1d6f96d4b</objectId>
 	<file-name>index.xml</file-name>
 	<folder-name>test04</folder-name>
-	<video>/static-assets/videos/big_buck_bunny.mp4</video>
+	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
 	<internal-name>test04</internal-name>
 	<title_t>test04</title_t>
 	<placeInNav>false</placeInNav>

@@ -11,7 +11,7 @@
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<description_t>test06</description_t>
-	<video>/static-assets/videos/big_buck_bunny.mp4</video>
+	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
 	<categories>	<item>	<key>/site/website/categories/technology/index.xml</key>
 	<value>Technology</value>
 	<include>/site/website/categories/technology/index.xml</include>

@@ -13,7 +13,7 @@
 	</item></tags>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<video>/static-assets/videos/big_buck_bunny.mp4</video>
+	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
 	<description_t>earthvideo</description_t>
 	<categories>	<item>	<key>/site/website/categories/science/astronomy/planets/earth/index.xml</key>
 	<value>earth</value>

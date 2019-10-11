@@ -14,7 +14,7 @@
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<description_t>test01</description_t>
-	<video>/static-assets/videos/small.mp4</video>
+	<video_s>/static-assets/videos/small.mp4</video_s>
 	<categories>	<item>	<key>/site/website/categories/science/index.xml</key>
 	<value>Science</value>
 	<include>/site/website/categories/science/index.xml</include>

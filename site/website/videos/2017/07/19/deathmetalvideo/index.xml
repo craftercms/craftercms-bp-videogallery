@@ -18,7 +18,7 @@
 	<tagUrl>#</tagUrl>
 	</item></tags>
 	<description_t>deathmetalvideo</description_t>
-	<video>/static-assets/videos/big_buck_bunny.mp4</video>
+	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
 	<categories item-list="true">	<item>	<key>/site/website/categories/music/rock/metal/deathmetal/index.xml</key>
 	<value>deathmetal</value>
 	<include>/site/website/categories/music/rock/metal/deathmetal/index.xml</include>

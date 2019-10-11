@@ -14,7 +14,7 @@
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<description_t>macvideo</description_t>
-	<video>/static-assets/videos/small.mp4</video>
+	<video_s>/static-assets/videos/small.mp4</video_s>
 	<categories>	<item>	<key>/site/website/categories/technology/computers/laptop/mac/index.xml</key>
 	<value>mac</value>
 	<include>/site/website/categories/technology/computers/laptop/mac/index.xml</include>

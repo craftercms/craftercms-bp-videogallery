@@ -1,5 +1,5 @@
 <#macro renderHeader>
-      <#list model.defaultHeader.item as header>
+      <#list model.defaultHeader_o.item as header>
             <@renderComponent component = header/>
       </#list>
 </#macro>

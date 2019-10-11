@@ -133,7 +133,7 @@
          <fields>
             <field>
                <type>node-selector</type>
-               <id>defaultHeader</id>
+               <id>defaultHeader_o</id>
                <iceId/>
                <title>Default Header</title>
                <description/>

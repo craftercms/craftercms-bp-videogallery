@@ -10,11 +10,11 @@
 	<createdDate_dt>2017-7-17T19:50:55.000Z</createdDate_dt>
 	<lastModifiedDate>2018-01-29T18:16:21.165Z</lastModifiedDate>
 	<lastModifiedDate_dt>2018-01-29T18:16:21.165Z</lastModifiedDate_dt>
-	<defaultHeader>	<item>	<key>/site/components/common/default-header.xml</key>
+	<defaultHeader_o>	<item>	<key>/site/components/common/default-header.xml</key>
 	<value>Default Header</value>
 	<include>/site/components/common/default-header.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></defaultHeader>
+	</item></defaultHeader_o>
 	<defaultFooter>	<item>	<key>/site/components/common/default-footer.xml</key>
 	<value>Default Footer</value>
 	<include>/site/components/common/default-footer.xml</include>

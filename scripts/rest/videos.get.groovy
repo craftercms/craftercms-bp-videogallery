@@ -12,8 +12,8 @@ if(categoryPath == 'undefined') {
  if(search != 'undefined' && search != '') {
     // recentVideosStatement = 'content-type:"/page/page-video" AND (internal-name: *'+ search +'* OR tags.item.tagName: *'+search+'*)'
     // recentVideosStatement = "content-type:\"/page/page-video\" AND internal-name: \"* " + search + "* \""
-    recentVideosStatement = "content-type:\"/page/page-video\" AND title: \".*" + search + ".*\""
-    // recentVideosStatement = "content-type:\"/page/page-video\" AND title: \"" + search + "\""
+    recentVideosStatement = "content-type:\"/page/page-video\" AND title_t: \".*" + search + ".*\""
+    // recentVideosStatement = "content-type:\"/page/page-video\" AND title_t: \"" + search + "\""
  }
 } else {
   path = categoryPath+"/index.xml"

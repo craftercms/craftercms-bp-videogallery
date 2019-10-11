@@ -7,7 +7,7 @@
 	<file-name>index.xml</file-name>
 	<folder-name>newvideo</folder-name>
 	<internal-name>new video</internal-name>
-	<title>New Video</title>
+	<title_t>New Video</title_t>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<description>New Video</description>

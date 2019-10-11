@@ -7,12 +7,12 @@
     <div class="inner-page">
         <div class="searchbar">
             <div class="search-left">
-                <p>${contentModel.title}</p>
+                <p>${contentModel.title_t}</p>
             </div>
             <div class="clear"> </div>
         </div>
         <div class="title">
-            <h3>${model.title}</h3>
+            <h3>${model.title_t}</h3>
             <ul>
                 <li><h4>By:</h4></li>
                 <li><a href="#">${contentModel.author!""}</a></li>

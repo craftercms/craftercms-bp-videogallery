@@ -9,7 +9,7 @@
 	<file-name>index.xml</file-name>
 	<folder-name>metallica</folder-name>
 	<internal-name>metallica</internal-name>
-	<title>metallica</title>
+	<title_t>metallica</title_t>
 	<tags item-list="true">	<item>	<tagName>metallica</tagName>
 	<tagUrl>#</tagUrl>
 	</item></tags>

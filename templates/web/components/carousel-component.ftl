@@ -12,7 +12,7 @@
 <div class="slider">
   <#list listVideos as video>
     <div class="grid">
-      <h3>${video.title}</h3>
+      <h3>${video.title_t}</h3>
       <#assign posterImage="">
       <#if video.thumbnail??>
         <#assign posterImage="${video.thumbnail}">

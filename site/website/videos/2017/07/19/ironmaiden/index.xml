@@ -7,7 +7,7 @@
 	<file-name>index.xml</file-name>
 	<folder-name>ironmaiden</folder-name>
 	<internal-name>ironmaiden</internal-name>
-	<title>Iron Maiden</title>
+	<title_t>Iron Maiden</title_t>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<description>Iron Maiden</description>

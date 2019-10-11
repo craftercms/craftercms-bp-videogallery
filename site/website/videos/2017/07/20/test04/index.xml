@@ -8,7 +8,7 @@
 	<folder-name>test04</folder-name>
 	<video>/static-assets/videos/big_buck_bunny.mp4</video>
 	<internal-name>test04</internal-name>
-	<title>test04</title>
+	<title_t>test04</title_t>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<description>test04</description>

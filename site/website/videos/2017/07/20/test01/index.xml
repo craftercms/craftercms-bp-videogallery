@@ -7,7 +7,7 @@
 	<file-name>index.xml</file-name>
 	<folder-name>test01</folder-name>
 	<internal-name>test01</internal-name>
-	<title>test01</title>
+	<title_t>test01</title_t>
 	<tags>	<item>	<tagName>test01</tagName>
 	<tagUrl>#</tagUrl>
 	</item></tags>

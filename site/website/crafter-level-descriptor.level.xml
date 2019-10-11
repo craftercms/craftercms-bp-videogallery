@@ -25,7 +25,7 @@
 	<contactEmails_o>	<item>	<email_s>emmanuel.hidalgo@rivetlogic.com</email_s>
 	</item>	<item>	<email_s>emmanuel_1693@hotmail.es</email_s>
 	</item></contactEmails_o>
-	<shareinsocialnetworks>	<item>	<key>googleplus</key>
+	<shareinsocialnetworks_o>	<item>	<key>googleplus</key>
 	<value_smv>Google Plus</value_smv>
 	</item>	<item>	<key>facebook</key>
 	<value_smv>Facebook</value_smv>
@@ -37,7 +37,7 @@
 	<value_smv>Email</value_smv>
 	</item>	<item>	<key>whatsapp</key>
 	<value_smv>Whatsapp</value_smv>
-	</item></shareinsocialnetworks>
+	</item></shareinsocialnetworks_o>
 	<latitude>9.937811</latitude>
 	<longitude>-84.093018</longitude>
 </component>

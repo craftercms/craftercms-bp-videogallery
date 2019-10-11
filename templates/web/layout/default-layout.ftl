@@ -69,7 +69,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <script src="/static-assets/js/main.js"></script>
     <script>
     (function () { 
-        <#list contentModel.shareinsocialnetworks.item as social>
+        <#list contentModel.shareinsocialnetworks_o.item as social>
          	socialMedia.push("${social.key}")
         </#list>
 	})();

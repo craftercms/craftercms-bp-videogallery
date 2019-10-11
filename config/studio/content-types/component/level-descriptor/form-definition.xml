@@ -322,7 +322,7 @@
             </field>
             <field>
                <type>checkbox-group</type>
-               <id>shareinsocialnetworks</id>
+               <id>shareinsocialnetworks_o</id>
                <iceId/>
                <title>Share in social networks</title>
                <description/>

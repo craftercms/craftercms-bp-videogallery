@@ -362,7 +362,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>latitude</id>
+               <id>latitude_s</id>
                <iceId/>
                <title>Latitude</title>
                <description/>

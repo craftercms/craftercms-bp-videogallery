@@ -75,7 +75,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	})();
     </script>
     <script>
-      var locationLatitude = ${contentModel.latitude};
+      var locationLatitude = ${contentModel.latitude_s};
       var locationLongitude = ${contentModel.longitude};
       var alertMsg = "";
       if( !(-85<locationLatitude && locationLatitude<85) ){
@@ -105,7 +105,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                               {gamma: 0.50}]}]
       });
       map.addMarker({
-        lat: ${contentModel.latitude},
+        lat: ${contentModel.latitude_s},
         lng: ${contentModel.longitude}
       });
     </script>

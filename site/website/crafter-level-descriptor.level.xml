@@ -15,11 +15,11 @@
 	<include>/site/components/common/default-header.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></defaultHeader_o>
-	<defaultFooter>	<item>	<key>/site/components/common/default-footer.xml</key>
+	<defaultFooter_o>	<item>	<key>/site/components/common/default-footer.xml</key>
 	<value>Default Footer</value>
 	<include>/site/components/common/default-footer.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></defaultFooter>
+	</item></defaultFooter_o>
 	<recentVideosLabel>Videos</recentVideosLabel>
 	<mostViewVideosLabel>Most View Videos</mostViewVideosLabel>
 	<contactEmails_o>	<item>	<email_s>emmanuel.hidalgo@rivetlogic.com</email_s>

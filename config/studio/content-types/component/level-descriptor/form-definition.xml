@@ -181,7 +181,7 @@
             </field>
             <field>
                <type>node-selector</type>
-               <id>defaultFooter</id>
+               <id>defaultFooter_o</id>
                <iceId/>
                <title>Default Footer</title>
                <description/>

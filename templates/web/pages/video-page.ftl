@@ -15,7 +15,7 @@
             <h3>${model.title_t}</h3>
             <ul>
                 <li><h4>By:</h4></li>
-                <li><a href="#">${contentModel.author!""}</a></li>
+                <li><a href="#">${contentModel.author_t!""}</a></li>
             </ul>
         </div>
         <div class="video-inner">

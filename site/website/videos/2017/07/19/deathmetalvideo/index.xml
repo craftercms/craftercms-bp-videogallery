@@ -41,7 +41,7 @@
 	<lastModifiedDate>2019-10-03T19:13:00.733Z</lastModifiedDate>
 	<lastModifiedDate_dt>2019-10-03T19:13:00.733Z</lastModifiedDate_dt>
 	<featured>true</featured>
-	<author>Test Author </author>
+	<author_t>Test Author </author_t>
 	<dateFormat>MMMM, yyyy</dateFormat>
 	<duration>1:00</duration>
 	<thumbnail>/static-assets/images/background.png</thumbnail>

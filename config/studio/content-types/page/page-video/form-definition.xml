@@ -171,7 +171,7 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>author</id>
+					<id>author_t</id>
 					<iceId>visible</iceId>
 					<title>Author</title>
 					<description></description>

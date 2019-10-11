@@ -31,7 +31,7 @@
 	</item>	<item>	<tagName>testTag06</tagName>
 	<tagUrl>#</tagUrl>
 	</item></tags>
-	<author>Emmanuel</author>
+	<author_t>Emmanuel</author_t>
 	<dateFormat>MM-dd-yyyy</dateFormat>
 	<duration>1:00</duration>
 	<thumbnail>/static-assets/images/wallpaper2.png</thumbnail>

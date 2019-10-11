@@ -12,7 +12,7 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<description_t>Avengers: Infinity War is an upcoming American superhero film based on the Marvel Comics superhero team the Avengers, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. ... The film was announced in October 2014 as Avengers: Infinity War – Part 1.</description_t>
 	<video_s>/static-assets/videos/videoplayback.mp4</video_s>
-	<categories>	<item>	<key>/site/website/categories/movies/index.xml</key>
+	<categories_o>	<item>	<key>/site/website/categories/movies/index.xml</key>
 	<value>movies</value>
 	<include>/site/website/categories/movies/index.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -24,7 +24,7 @@
 	<value>superheroes</value>
 	<include>/site/website/categories/movies/action/superheroes/index.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></categories>
+	</item></categories_o>
 	<featured>true</featured>
 	<tags>	<item>	<tagName>Marvel</tagName>
 	<tagUrl>www.marvel.com</tagUrl>

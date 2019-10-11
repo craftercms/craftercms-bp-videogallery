@@ -17,10 +17,10 @@ if(categoryPath == 'undefined') {
  }
 } else {
   path = categoryPath+"/index.xml"
-//   recentVideosStatement = 'content-type:"/page/page-video" AND categories.item.key:"'+ path +'"'
+//   recentVideosStatement = 'content-type:"/page/page-video" AND categories_o.item.key:"'+ path +'"'
   recentVideosStatement = "content-type:\"/page/page-video\"";
   if(search != 'undefined' || search != "") {
-    // recentVideosStatement = 'content-type:"/page/page-video" AND categories.item.key:"'+ categoryPath +'" AND (internal-name: *'+ search +'* OR tags.item.tagName: *'+search+'*)'
+    // recentVideosStatement = 'content-type:"/page/page-video" AND categories_o.item.key:"'+ categoryPath +'" AND (internal-name: *'+ search +'* OR tags.item.tagName: *'+search+'*)'
   }
 }
 

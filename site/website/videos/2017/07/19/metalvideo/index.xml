@@ -15,7 +15,7 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<description_t>metalvideo</description_t>
 	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
-	<categories>	<item>	<key>/site/website/categories/music/rock/metal/index.xml</key>
+	<categories_o>	<item>	<key>/site/website/categories/music/rock/metal/index.xml</key>
 	<value>metal</value>
 	<include>/site/website/categories/music/rock/metal/index.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -27,7 +27,7 @@
 	<value>rock</value>
 	<include>/site/website/categories/music/rock/index.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></categories>
+	</item></categories_o>
 	<createdDate>2018-01-10T17:23:00.729Z</createdDate>
 	<createdDate_dt>2018-01-10T17:23:00.729Z</createdDate_dt>
 	<lastModifiedDate>2018-02-08T17:44:12.091Z</lastModifiedDate>

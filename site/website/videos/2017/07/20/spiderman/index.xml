@@ -15,7 +15,7 @@
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
-	<categories>	<item>	<key>/site/website/categories/movies/action/index.xml</key>
+	<categories_o>	<item>	<key>/site/website/categories/movies/action/index.xml</key>
 	<value>action</value>
 	<include>/site/website/categories/movies/action/index.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -27,7 +27,7 @@
 	<value>movies</value>
 	<include>/site/website/categories/movies/index.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></categories>
+	</item></categories_o>
 	<featured>true</featured>
 	<createdDate>2018-01-11T22:56:07.862Z</createdDate>
 	<createdDate_dt>2018-01-11T22:56:07.862Z</createdDate_dt>

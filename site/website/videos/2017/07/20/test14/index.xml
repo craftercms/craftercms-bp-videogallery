@@ -14,11 +14,11 @@
 	<description_t>Test video 14</description_t>
 	<video_s>/static-assets/videos/small.mp4</video_s>
 	<dateFormat_s>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</dateFormat_s>
-	<categories>	<item>	<key>/site/website/categories/science/index.xml</key>
+	<categories_o>	<item>	<key>/site/website/categories/science/index.xml</key>
 	<value>Science</value>
 	<include>/site/website/categories/science/index.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></categories>
+	</item></categories_o>
 	<featured>true</featured>
 	<tags>	<item>	<tagName>test14</tagName>
 	<tagUrl>#</tagUrl>

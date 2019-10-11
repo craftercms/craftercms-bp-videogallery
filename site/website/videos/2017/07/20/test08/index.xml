@@ -12,11 +12,11 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<description_t>test08</description_t>
 	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
-	<categories>	<item>	<key>/site/website/categories/music/index.xml</key>
+	<categories_o>	<item>	<key>/site/website/categories/music/index.xml</key>
 	<value>music</value>
 	<include>/site/website/categories/music/index.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></categories>
+	</item></categories_o>
 	<featured>true</featured>
 	<tags>	<item>	<tagName>test08</tagName>
 	<tagUrl>#</tagUrl>

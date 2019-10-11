@@ -15,7 +15,7 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<description_t>Justice League</description_t>
 	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
-	<categories>	<item>	<key>/site/website/categories/movies/index.xml</key>
+	<categories_o>	<item>	<key>/site/website/categories/movies/index.xml</key>
 	<value>movies</value>
 	<include>/site/website/categories/movies/index.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -27,7 +27,7 @@
 	<value>superheroes</value>
 	<include>/site/website/categories/movies/action/superheroes/index.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></categories>
+	</item></categories_o>
 	<featured>true</featured>
 	<createdDate>2018-01-12T18:06:06.988Z</createdDate>
 	<createdDate_dt>2018-01-12T18:06:06.988Z</createdDate_dt>

@@ -15,7 +15,7 @@
 	<folder-name>saw</folder-name>
 	<description_t>saw</description_t>
 	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
-	<categories>	<item>	<key>/site/website/categories/movies/index.xml</key>
+	<categories_o>	<item>	<key>/site/website/categories/movies/index.xml</key>
 	<value>movies</value>
 	<include>/site/website/categories/movies/index.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -23,7 +23,7 @@
 	<value>horror</value>
 	<include>/site/website/categories/movies/horror/index.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></categories>
+	</item></categories_o>
 	<createdDate>2018-01-11T15:20:09.242Z</createdDate>
 	<createdDate_dt>2018-01-11T15:20:09.242Z</createdDate_dt>
 	<lastModifiedDate>2018-02-08T17:49:17.895Z</lastModifiedDate>

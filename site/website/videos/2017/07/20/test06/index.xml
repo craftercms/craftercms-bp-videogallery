@@ -12,7 +12,7 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<description_t>test06</description_t>
 	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
-	<categories>	<item>	<key>/site/website/categories/technology/index.xml</key>
+	<categories_o>	<item>	<key>/site/website/categories/technology/index.xml</key>
 	<value>Technology</value>
 	<include>/site/website/categories/technology/index.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -20,7 +20,7 @@
 	<value>music</value>
 	<include>/site/website/categories/music/index.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></categories>
+	</item></categories_o>
 	<featured>true</featured>
 	<createdDate>2018-01-22T22:30:30.445Z</createdDate>
 	<createdDate_dt>2018-01-22T22:30:30.445Z</createdDate_dt>

@@ -12,11 +12,11 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<description_t>test10</description_t>
 	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
-	<categories>	<item>	<key>/site/website/categories/science/index.xml</key>
+	<categories_o>	<item>	<key>/site/website/categories/science/index.xml</key>
 	<value>Science</value>
 	<include>/site/website/categories/science/index.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></categories>
+	</item></categories_o>
 	<featured>true</featured>
 	<tags>	<item>	<tagName>test10</tagName>
 	<tagUrl>#</tagUrl>

@@ -15,7 +15,7 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<description_t>avengers</description_t>
 	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
-	<categories>	<item>	<key>/site/website/categories/movies/index.xml</key>
+	<categories_o>	<item>	<key>/site/website/categories/movies/index.xml</key>
 	<value>movies</value>
 	<include>/site/website/categories/movies/index.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -27,7 +27,7 @@
 	<value>superheroes</value>
 	<include>/site/website/categories/movies/action/superheroes/index.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></categories>
+	</item></categories_o>
 	<createdDate>2018-01-10T23:32:52.004Z</createdDate>
 	<createdDate_dt>2018-01-10T23:32:52.004Z</createdDate_dt>
 	<lastModifiedDate>2018-02-08T17:46:33.287Z</lastModifiedDate>

@@ -24,13 +24,13 @@ if(search == '') {
 	recentVideosStatement = "title_t: \".*" + search + ".*\""
 	// recentVideosStatement = "title_t: \"" + search + "\""
 } else {
-	// recentVideosStatement = 'content-type:"/page/page-video" AND categories.item.key:"'+ path +'" AND (internal-name: *'+ search +'* OR tags.item.tagName: *'+search+'*)'
+	// recentVideosStatement = 'content-type:"/page/page-video" AND categories_o.item.key:"'+ path +'" AND (internal-name: *'+ search +'* OR tags.item.tagName: *'+search+'*)'
 	// recentVideosStatement = "content-type:\"/page/page-video\" AND internal-name: \".*" + search + ".*\""
 	recentVideosStatement = "content-type:\"/page/page-video\""
 }
 
 if(search == '' && (path != 'undefined' || path != " ")) {
-	// recentVideosStatement = 'content-type:"/page/page-video" AND categories.item.key:"'+ path +'"'
+	// recentVideosStatement = 'content-type:"/page/page-video" AND categories_o.item.key:"'+ path +'"'
 	recentVideosStatement = "content-type:\"/page/page-video\""
 }
 

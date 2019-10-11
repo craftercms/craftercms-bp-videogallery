@@ -17,7 +17,7 @@
 	<include>/site/website/categories/science/index.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></categories_o>
-	<featured>true</featured>
+	<featured_b>true</featured_b>
 	<tags_o>	<item>	<tagName_t>test10</tagName_t>
 	<tagUrl_s>#</tagUrl_s>
 	</item>	<item>	<tagName_t>testTag10</tagName_t>

@@ -21,7 +21,7 @@
 	<include>/site/website/categories/music/index.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></categories_o>
-	<featured>true</featured>
+	<featured_b>true</featured_b>
 	<createdDate>2018-01-22T22:30:30.445Z</createdDate>
 	<createdDate_dt>2018-01-22T22:30:30.445Z</createdDate_dt>
 	<lastModifiedDate>2018-02-08T17:52:21.905Z</lastModifiedDate>

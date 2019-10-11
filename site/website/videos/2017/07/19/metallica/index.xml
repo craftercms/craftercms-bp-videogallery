@@ -26,7 +26,7 @@
 	<include>/site/website/categories/music/rock/metal/index.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></categories>
-	<featured>true</featured>
+	<featured_b>true</featured_b>
 	<createdDate>2018-01-12T19:37:16.754Z</createdDate>
 	<createdDate_dt>2018-01-12T19:37:16.754Z</createdDate_dt>
 	<lastModifiedDate>2019-10-03T18:15:52.879Z</lastModifiedDate>

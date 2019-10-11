@@ -25,7 +25,7 @@
 	<include>/site/website/categories/music/rock/metal/index.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></categories_o>
-	<featured>true</featured>
+	<featured_b>true</featured_b>
 	<tags_o>	<item>	<tagName_t>Music</tagName_t>
 	<tagUrl_s>#</tagUrl_s>
 	</item>	<item>	<tagName_t>Metal</tagName_t>

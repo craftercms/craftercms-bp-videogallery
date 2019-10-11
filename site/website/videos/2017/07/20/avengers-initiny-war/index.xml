@@ -25,7 +25,7 @@
 	<include>/site/website/categories/movies/action/superheroes/index.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></categories_o>
-	<featured>true</featured>
+	<featured_b>true</featured_b>
 	<tags_o>	<item>	<tagName_t>Marvel</tagName_t>
 	<tagUrl_s>www.marvel.com</tagUrl_s>
 	</item>	<item>	<tagName_t>Avengers</tagName_t>

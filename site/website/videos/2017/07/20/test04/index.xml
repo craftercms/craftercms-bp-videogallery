@@ -21,7 +21,7 @@
 	<include>/site/website/categories/music/index.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></categories_o>
-	<featured>true</featured>
+	<featured_b>true</featured_b>
 	<tags_o>	<item>	<tagName_t>test04</tagName_t>
 	<tagUrl_s>#</tagUrl_s>
 	</item>	<item>	<tagName_t>test04Tag</tagName_t>

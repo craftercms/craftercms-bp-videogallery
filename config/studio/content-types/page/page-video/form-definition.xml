@@ -566,7 +566,7 @@
 				</field>
 				<field>
 					<type>checkbox</type>
-					<id>featured</id>
+					<id>featured_b</id>
 					<iceId>visible</iceId>
 					<title>Featured</title>
 					<description></description>

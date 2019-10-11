@@ -8,7 +8,7 @@
 			<div class="section group">				
 				<div class="col span_1_of_3">
 					<div class="contact_info">
-			    	 	<h3>${contentModel.imageTitle}</h3>
+			    	 	<h3>${contentModel.imageTitle_t}</h3>
 							<img src="${contentModel.image}"></img>
       				</div>
 				</div>				

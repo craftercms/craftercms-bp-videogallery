@@ -13,7 +13,7 @@
 	</item></tags>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<description>rapvideo</description>
+	<description_t>rapvideo</description_t>
 	<video>/static-assets/videos/big_buck_bunny.mp4</video>
 	<categories>	<item>	<key>/site/website/categories/music/index.xml</key>
 	<value>music</value>

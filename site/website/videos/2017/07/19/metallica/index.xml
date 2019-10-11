@@ -15,7 +15,7 @@
 	</item></tags>
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>6000</orderDefault_f>
-	<description>metallica</description>
+	<description_t>metallica</description_t>
 	<video>/static-assets/videos/big_buck_bunny.mp4</video>
 	<categories item-list="true">	<item>	<key>/site/website/categories/music/index.xml</key>
 	<value>music</value>

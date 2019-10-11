@@ -38,7 +38,7 @@
         <div class="video-details">
             <ul>
             	<li><p>Uploaded on <a href="#">${contentModel.createdDate_dt?datetime?string[contentModel.dateFormat]!""}</a></p></li>
-                <li><span>${model.description}</span></li>
+                <li><span>${model.description_t}</span></li>
             </ul>
         </div>
         <div class="clear"> </div>

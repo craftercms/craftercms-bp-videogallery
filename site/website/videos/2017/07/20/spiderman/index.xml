@@ -11,7 +11,7 @@
 	<tags>	<item>	<tagName>spiderman</tagName>
 	<tagUrl>#</tagUrl>
 	</item></tags>
-	<description>spiderman</description>
+	<description_t>spiderman</description_t>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<video>/static-assets/videos/big_buck_bunny.mp4</video>

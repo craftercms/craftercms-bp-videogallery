@@ -13,7 +13,7 @@
 	<folder-name>instrumentalvideo</folder-name>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<description>instrumentalvideo</description>
+	<description_t>instrumentalvideo</description_t>
 	<video>/static-assets/videos/big_buck_bunny.mp4</video>
 	<categories>	<item>	<key>/site/website/categories/music/instrumental/index.xml</key>
 	<value>instrumental</value>

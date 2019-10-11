@@ -13,7 +13,7 @@
 	</item></tags>
 	<file-name>index.xml</file-name>
 	<folder-name>saw</folder-name>
-	<description>saw</description>
+	<description_t>saw</description_t>
 	<video>/static-assets/videos/big_buck_bunny.mp4</video>
 	<categories>	<item>	<key>/site/website/categories/movies/index.xml</key>
 	<value>movies</value>

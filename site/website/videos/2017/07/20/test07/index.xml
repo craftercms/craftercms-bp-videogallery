@@ -10,7 +10,7 @@
 	<title_t>test07</title_t>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<description>test07</description>
+	<description_t>test07</description_t>
 	<video>/static-assets/videos/big_buck_bunny.mp4</video>
 	<categories>	<item>	<key>/site/website/categories/technology/index.xml</key>
 	<value>Technology</value>

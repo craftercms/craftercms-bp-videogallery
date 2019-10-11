@@ -13,7 +13,7 @@
 	</item></tags>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<description>avengers</description>
+	<description_t>avengers</description_t>
 	<video>/static-assets/videos/big_buck_bunny.mp4</video>
 	<categories>	<item>	<key>/site/website/categories/movies/index.xml</key>
 	<value>movies</value>

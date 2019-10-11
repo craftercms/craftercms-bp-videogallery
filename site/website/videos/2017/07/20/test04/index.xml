@@ -11,7 +11,7 @@
 	<title_t>test04</title_t>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<description>test04</description>
+	<description_t>test04</description_t>
 	<categories>	<item>	<key>/site/website/categories/science/index.xml</key>
 	<value>Science</value>
 	<include>/site/website/categories/science/index.xml</include>

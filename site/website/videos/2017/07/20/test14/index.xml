@@ -11,7 +11,7 @@
 	<author_t>Emmanuel</author_t>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<description>Test video 14</description>
+	<description_t>Test video 14</description_t>
 	<video>/static-assets/videos/small.mp4</video>
 	<dateFormat>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</dateFormat>
 	<categories>	<item>	<key>/site/website/categories/science/index.xml</key>

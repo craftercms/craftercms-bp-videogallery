@@ -13,7 +13,7 @@
 	</item></tags>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<description>rockVideo</description>
+	<description_t>rockVideo</description_t>
 	<video>/static-assets/videos/big_buck_bunny.mp4</video>
 	<categories>	<item>	<key>/site/website/categories/music/rock/index.xml</key>
 	<value>rock</value>

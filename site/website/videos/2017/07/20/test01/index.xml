@@ -13,7 +13,7 @@
 	</item></tags>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<description>test01</description>
+	<description_t>test01</description_t>
 	<video>/static-assets/videos/small.mp4</video>
 	<categories>	<item>	<key>/site/website/categories/science/index.xml</key>
 	<value>Science</value>

@@ -13,7 +13,7 @@
 	</item></tags>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<description>macvideo</description>
+	<description_t>macvideo</description_t>
 	<video>/static-assets/videos/small.mp4</video>
 	<categories>	<item>	<key>/site/website/categories/technology/computers/laptop/mac/index.xml</key>
 	<value>mac</value>

@@ -1,7 +1,6 @@
 <#import "/templates/web/layout/default-layout.ftl" as layout/>
 <#import "/templates/web/includes/utils.ftl" as utils/>
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-<#import "/templates/system/common/craftercms-common.ftl" as crafterCommon/>
 
 <@layout.default>
 <div class="content" <@studio.iceAttr iceGroup="visible" path=contentModel.storeUrl />>

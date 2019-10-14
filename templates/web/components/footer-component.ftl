@@ -1,4 +1,3 @@
-<#import "/templates/system/common/craftercms-common.ftl" as crafterCommon/>
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 
 <div class="footer" <@studio.iceAttr iceGroup="visible" path=contentModel.storeUrl />>

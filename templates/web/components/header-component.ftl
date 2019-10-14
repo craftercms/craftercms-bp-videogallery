@@ -1,4 +1,3 @@
-<#import "/templates/system/common/craftercms-common.ftl" as crafterCommon/>
 <#import "/templates/web/navigation2/navigation.ftl" as nav/>
 
 <!----start-Header---->

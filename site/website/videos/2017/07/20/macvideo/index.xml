@@ -21,11 +21,19 @@
 	<value>laptop</value>
 	<include>/site/website/categories/technology/computers/laptop/index.xml</include>
 	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="categoriesDS">	<key>/site/website/categories/technology/index.xml</key>
+	<value>Technology</value>
+	<include>/site/website/categories/technology/index.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="categoriesDS">	<key>/site/website/categories/technology/computers/index.xml</key>
+	<value>computers</value>
+	<include>/site/website/categories/technology/computers/index.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item></categories_o>
 	<createdDate>2018-01-10T18:18:09.091Z</createdDate>
 	<createdDate_dt>2018-01-10T18:18:09.091Z</createdDate_dt>
-	<lastModifiedDate>2019-10-14T15:32:04.284Z</lastModifiedDate>
-	<lastModifiedDate_dt>2019-10-14T15:32:04.284Z</lastModifiedDate_dt>
+	<lastModifiedDate>2019-10-14T15:35:14.009Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-14T15:35:14.009Z</lastModifiedDate_dt>
 	<featured_b>true</featured_b>
 	<author_t>Emmanuel</author_t>
 	<duration_s>0:06</duration_s>

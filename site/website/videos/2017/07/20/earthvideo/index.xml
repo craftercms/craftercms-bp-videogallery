@@ -9,14 +9,14 @@
 	<file-name>index.xml</file-name>
 	<folder-name>earthvideo</folder-name>
 	<internal-name>earthvideo</internal-name>
-	<title_t tokenized="true">earthvideo</title_t>
+	<title_t tokenized="true">Earth Video</title_t>
 	<tags_o item-list="true">	<item>	<tagName_t>earthvideo</tagName_t>
 	<tagUrl_s>#</tagUrl_s>
 	</item></tags_o>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
-	<description_t>earthvideo</description_t>
+	<description_t>Earth video, a beautiful view of our planet</description_t>
 	<categories_o item-list="true">	<item>	<key>/site/website/categories/science/astronomy/planets/earth/index.xml</key>
 	<value>earth</value>
 	<include>/site/website/categories/science/astronomy/planets/earth/index.xml</include>
@@ -36,8 +36,8 @@
 	</item></categories_o>
 	<createdDate>2018-01-10T23:28:48.710Z</createdDate>
 	<createdDate_dt>2018-01-10T23:28:48.710Z</createdDate_dt>
-	<lastModifiedDate>2019-10-14T15:40:30.458Z</lastModifiedDate>
-	<lastModifiedDate_dt>2019-10-14T15:40:30.458Z</lastModifiedDate_dt>
+	<lastModifiedDate>2019-10-14T16:37:11.185Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-14T16:37:11.185Z</lastModifiedDate_dt>
 	<featured_b>true</featured_b>
 	<author_t>Emmanuel</author_t>
 	<duration_s>1:00</duration_s>

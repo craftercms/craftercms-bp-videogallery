@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/page-video</content-type>	<display-template>/templates/web/pages/video-page.ftl</display-template>
+	<content-type>/page/page-video</content-type>
+	<display-template>/templates/web/pages/video-page.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
 	<objectGroupId>928f</objectGroupId>
 	<objectId>928f6f9d-044c-d7c3-65d8-d38ee9634a67</objectId>
 	<file-name>index.xml</file-name>
-	<folder-name>newvideo</folder-name>
-	<internal-name>new video</internal-name>
-	<title_t>New Video</title_t>
+	<folder-name>future-technology</folder-name>
+	<internal-name>Future Technology</internal-name>
+	<title_t tokenized="true">Future Technology</title_t>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<description_t>New Video</description_t>
+	<description_t>How will technology will be in future?</description_t>
 	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
-	<categories_o>	<item>	<key>/site/website/categories/technology/index.xml</key>
+	<categories_o item-list="true">	<item>	<key>/site/website/categories/technology/index.xml</key>
 	<value>Technology</value>
 	<include>/site/website/categories/technology/index.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></categories_o>
 	<featured_b>true</featured_b>
-	<tags_o>	<item>	<tagName_t>tag1</tagName_t>
+	<tags_o item-list="true">	<item>	<tagName_t>technology</tagName_t>
 	<tagUrl_s>#</tagUrl_s>
-	</item>	<item>	<tagName_t>tag2</tagName_t>
-	<tagUrl_s>#</tagUrl_s>
-	</item>	<item>	<tagName_t>tag3</tagName_t>
+	</item>	<item>	<tagName_t>future</tagName_t>
 	<tagUrl_s>#</tagUrl_s>
 	</item></tags_o>
 	<createdDate>2018-01-22T18:46:57.450Z</createdDate>
 	<createdDate_dt>2018-01-22T18:46:57.450Z</createdDate_dt>
-	<lastModifiedDate>2018-02-08T17:48:54.899Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-02-08T17:48:54.899Z</lastModifiedDate_dt>
+	<lastModifiedDate>2019-10-14T16:59:39.249Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-14T16:59:39.249Z</lastModifiedDate_dt>
 	<author_t>Emmanuel</author_t>
 	<dateFormat_s>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</dateFormat_s>
 	<duration_s>1:00</duration_s>

@@ -23,9 +23,9 @@
           <span class="toggle"><div class="hamburger-contaier">☰</div></span>
           <ul class="menu demo">
             <li><a href="/index.html">Home</a><p>My Frontpage</p></li>
-            <li><a href="/about">About</a><p>About this blog</p></li>  
-            <li><a href="/categories">Categories</a><p>Be Ur Self</p></li>  
-            <li><a href="/contact">Contact</a><p>Leave Messages</p></li>  
+            <li><a href="/about">About</a><p>About this site</p></li>  
+            <li><a href="/categories">Categories</a><p>Videos by Categories</p></li>  
+            <li><a href="/contact">Contact</a><p>Leave Us a Message</p></li>  
           </ul>
         </label>
 	</nav>

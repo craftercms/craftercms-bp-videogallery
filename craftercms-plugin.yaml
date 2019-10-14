@@ -6,8 +6,8 @@ descriptorVersion: 2
 # Describe the plugin
 plugin:
   type: blueprint
-  id: org.craftercms.blueprint.videogallery
-  name: "Crafter CMS Blueprint: Video Gallery"
+  id: com.rivetlogic.craftercms.blueprint.videogallery
+  name: "Video Gallery"
   tags:
     - blueprint
     - video
@@ -19,16 +19,23 @@ plugin:
   description: |
     "Crafter CMS Blueprint: Video Gallery"
   website:
-    name: "Crafter CMS Blueprint: Video Gallery"
+    name: "Video Gallery"
+    url: https://github.com/rivetlogic/craftercms-bp-videogallery.git
 media:
   screenshots:
     - title: Home Page
       description: Screenshot of the home page
-      url: ""
+      url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-videogallery/master/static-assets/images/screenshots/bp_videogallery_home.png"
+    - title: Categories Page
+      description: Screenshot of the categories page
+      url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-videogallery/master/static-assets/images/screenshots/bp_videogallery_categories.png"
+    - title: Contact Page
+      description: Screenshot of the contact page
+      url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-videogallery/master/static-assets/images/screenshots/bp_videogallery_contact.png"
 developer:
   company:
     name: Rivet Logic
-    email: support@rivetlogic.com
+    email: info@rivetlogic.com
     url: https://rivetlogic.com
 build:
   id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
@@ -39,7 +46,7 @@ license:
 crafterCmsVersions:
   - major: 3
     minor: 1
-    patch: 1
+    patch: 4
 crafterCmsEditions:
   - community
   - enterprise

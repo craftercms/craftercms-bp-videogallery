@@ -18,6 +18,10 @@
 	<value>music</value>
 	<include>/site/website/categories/music/index.xml</include>
 	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="categoriesDS">	<key>/site/website/categories/music/instrumental/index.xml</key>
+	<value>instrumental</value>
+	<include>/site/website/categories/music/instrumental/index.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item></categories_o>
 	<featured_b>true</featured_b>
 	<tags_o item-list="true">	<item>	<tagName_t>instrumental</tagName_t>
@@ -27,8 +31,8 @@
 	</item></tags_o>
 	<createdDate>2018-01-23T17:36:32.253Z</createdDate>
 	<createdDate_dt>2018-01-23T17:36:32.253Z</createdDate_dt>
-	<lastModifiedDate>2019-10-14T16:34:17.790Z</lastModifiedDate>
-	<lastModifiedDate_dt>2019-10-14T16:34:17.790Z</lastModifiedDate_dt>
+	<lastModifiedDate>2019-10-14T16:35:05.111Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-14T16:35:05.111Z</lastModifiedDate_dt>
 	<author_t>Author Test</author_t>
 	<dateFormat_s>MMMM, yyyy</dateFormat_s>
 	<duration_s>1:00</duration_s>

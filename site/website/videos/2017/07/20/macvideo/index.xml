@@ -7,15 +7,17 @@
 	<objectGroupId>cbeb</objectGroupId>
 	<objectId>cbeb3bdc-dada-6ef1-6b37-554314299ec4</objectId>
 	<file-name>index.xml</file-name>
-	<folder-name>macvideo</folder-name>
-	<internal-name>macvideo</internal-name>
-	<title_t tokenized="true">macvideo</title_t>
-	<tags_o item-list="true">	<item>	<tagName_t>macvideo</tagName_t>
+	<folder-name>laptopvideo</folder-name>
+	<internal-name>laptopvideo</internal-name>
+	<title_t tokenized="true">laptopvideo</title_t>
+	<tags_o item-list="true">	<item>	<tagName_t>laptopvideo</tagName_t>
+	<tagUrl_s>#</tagUrl_s>
+	</item>	<item>	<tagName_t>computers</tagName_t>
 	<tagUrl_s>#</tagUrl_s>
 	</item></tags_o>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<description_t>macvideo</description_t>
+	<description_t>laptopvideo</description_t>
 	<video_s>/static-assets/videos/small.mp4</video_s>
 	<categories_o item-list="true">	<item datasource="categoriesDS">	<key>/site/website/categories/technology/computers/laptop/index.xml</key>
 	<value>laptop</value>
@@ -32,8 +34,8 @@
 	</item></categories_o>
 	<createdDate>2018-01-10T18:18:09.091Z</createdDate>
 	<createdDate_dt>2018-01-10T18:18:09.091Z</createdDate_dt>
-	<lastModifiedDate>2019-10-14T15:35:14.009Z</lastModifiedDate>
-	<lastModifiedDate_dt>2019-10-14T15:35:14.009Z</lastModifiedDate_dt>
+	<lastModifiedDate>2019-10-14T15:35:55.412Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-14T15:35:55.412Z</lastModifiedDate_dt>
 	<featured_b>true</featured_b>
 	<author_t>Emmanuel</author_t>
 	<duration_s>0:06</duration_s>

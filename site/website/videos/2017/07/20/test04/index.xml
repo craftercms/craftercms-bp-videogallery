@@ -1,36 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/page-video</content-type>	<display-template>/templates/web/pages/video-page.ftl</display-template>
+	<content-type>/page/page-video</content-type>
+	<display-template>/templates/web/pages/video-page.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
 	<objectGroupId>f25a</objectGroupId>
 	<objectId>f25ad902-dd88-63ba-c81f-12d1d6f96d4b</objectId>
 	<file-name>index.xml</file-name>
-	<folder-name>test04</folder-name>
+	<folder-name>best-rappers</folder-name>
 	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
-	<internal-name>test04</internal-name>
-	<title_t>test04</title_t>
+	<internal-name>Best Rappers</internal-name>
+	<title_t tokenized="true">Best Rappers</title_t>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<description_t>test04</description_t>
-	<categories_o>	<item>	<key>/site/website/categories/science/index.xml</key>
-	<value>Science</value>
-	<include>/site/website/categories/science/index.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<key>/site/website/categories/music/index.xml</key>
+	<description_t>This is a video of the best rappers of 2019</description_t>
+	<categories_o item-list="true">	<item>	<key>/site/website/categories/music/index.xml</key>
 	<value>music</value>
 	<include>/site/website/categories/music/index.xml</include>
 	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="categoriesDS">	<key>/site/website/categories/music/rap/index.xml</key>
+	<value>rap</value>
+	<include>/site/website/categories/music/rap/index.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item></categories_o>
 	<featured_b>true</featured_b>
-	<tags_o>	<item>	<tagName_t>test04</tagName_t>
+	<tags_o item-list="true">	<item>	<tagName_t>rap</tagName_t>
 	<tagUrl_s>#</tagUrl_s>
-	</item>	<item>	<tagName_t>test04Tag</tagName_t>
+	</item>	<item>	<tagName_t>rapper</tagName_t>
 	<tagUrl_s>#</tagUrl_s>
 	</item></tags_o>
 	<createdDate>2018-01-22T22:27:20.425Z</createdDate>
 	<createdDate_dt>2018-01-22T22:27:20.425Z</createdDate_dt>
-	<lastModifiedDate>2018-02-08T17:51:20.499Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-02-08T17:51:20.499Z</lastModifiedDate_dt>
+	<lastModifiedDate>2019-10-14T16:30:40.393Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-14T16:30:40.393Z</lastModifiedDate_dt>
 	<author_t>Emmanuel</author_t>
 	<duration_s>1:00</duration_s>
 	<thumbnail_s>/static-assets/images/wallpaper2.png</thumbnail_s>

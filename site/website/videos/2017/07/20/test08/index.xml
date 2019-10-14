@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/page-video</content-type>	<display-template>/templates/web/pages/video-page.ftl</display-template>
+	<content-type>/page/page-video</content-type>
+	<display-template>/templates/web/pages/video-page.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
 	<objectGroupId>9ea3</objectGroupId>
 	<objectId>9ea3fd4b-f3c7-aacb-5c4c-77ebefa7799f</objectId>
 	<file-name>index.xml</file-name>
-	<folder-name>test08</folder-name>
-	<internal-name>test08</internal-name>
-	<title_t>test08</title_t>
+	<folder-name>instrumental-piano</folder-name>
+	<internal-name>Instrumental Piano</internal-name>
+	<title_t tokenized="true">Instrumental Piano</title_t>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<description_t>test08</description_t>
+	<description_t>Instrumental Piano music video</description_t>
 	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
-	<categories_o>	<item>	<key>/site/website/categories/music/index.xml</key>
+	<categories_o item-list="true">	<item>	<key>/site/website/categories/music/index.xml</key>
 	<value>music</value>
 	<include>/site/website/categories/music/index.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></categories_o>
 	<featured_b>true</featured_b>
-	<tags_o>	<item>	<tagName_t>test08</tagName_t>
+	<tags_o item-list="true">	<item>	<tagName_t>instrumental</tagName_t>
 	<tagUrl_s>#</tagUrl_s>
-	</item>	<item>	<tagName_t>test081</tagName_t>
-	<tagUrl_s>#</tagUrl_s>
-	</item>	<item>	<tagName_t>test07</tagName_t>
+	</item>	<item>	<tagName_t>piano</tagName_t>
 	<tagUrl_s>#</tagUrl_s>
 	</item></tags_o>
 	<createdDate>2018-01-23T17:36:32.253Z</createdDate>
 	<createdDate_dt>2018-01-23T17:36:32.253Z</createdDate_dt>
-	<lastModifiedDate>2018-02-08T17:53:10.034Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-02-08T17:53:10.034Z</lastModifiedDate_dt>
+	<lastModifiedDate>2019-10-14T16:34:17.790Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-14T16:34:17.790Z</lastModifiedDate_dt>
 	<author_t>Author Test</author_t>
 	<dateFormat_s>MMMM, yyyy</dateFormat_s>
 	<duration_s>1:00</duration_s>

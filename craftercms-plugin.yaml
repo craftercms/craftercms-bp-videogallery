@@ -7,7 +7,7 @@ descriptorVersion: 2
 plugin:
   type: blueprint
   id: com.rivetlogic.craftercms.blueprint.videogallery
-  name: "Video Gallery"
+  name: Video Gallery
   tags:
     - blueprint
     - video
@@ -17,9 +17,9 @@ plugin:
     minor: 0
     patch: 0
   description: |
-    "Crafter CMS Blueprint: Video Gallery"
+    A simple Video Gallery site blueprint.
   website:
-    name: "Video Gallery"
+    name: Video Gallery
     url: https://github.com/rivetlogic/craftercms-bp-videogallery.git
   media:
     screenshots:
@@ -41,8 +41,8 @@ plugin:
     id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
     date: 2019-01-23T00:00:00Z
   license:
-    name: GNU
-    url: https://opensource.org/licenses/GPL-3.0
+    name: MIT
+    url: https://opensource.org/licenses/MIT
   crafterCmsVersions:
     - major: 3
       minor: 1

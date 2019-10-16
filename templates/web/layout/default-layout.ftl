@@ -69,20 +69,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <script src="/static-assets/js/main.js"></script>
     <script>
     (function () { 
-        <#list contentModel.shareinsocialnetworks.item as social>
+        <#list contentModel.shareinsocialnetworks_o.item as social>
          	socialMedia.push("${social.key}")
         </#list>
 	})();
     </script>
     <script>
-      var locationLatitude = ${contentModel.latitude};
-      var locationLongitude = ${contentModel.longitude};
+      var locationLatitude = ${contentModel.latitude_s};
+      var locationLongitude = ${contentModel.longitude_s};
       var alertMsg = "";
       if( !(-85<locationLatitude && locationLatitude<85) ){
         alertMsg += "Invalid latitude. Must be between -85 and 85.\n";
       }
       if( !(-180<locationLongitude && locationLongitude<180) ){
-        alertMsg += "Invalid longitude. Must be between -180 and 180.\n";
+        alertMsg += "Invalid longitude_s. Must be between -180 and 180.\n";
       }
       if( alertMsg ){
         alert( alertMsg );
@@ -105,8 +105,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                               {gamma: 0.50}]}]
       });
       map.addMarker({
-        lat: ${contentModel.latitude},
-        lng: ${contentModel.longitude}
+        lat: ${contentModel.latitude_s},
+        lng: ${contentModel.longitude_s}
       });
     </script>
     <@studio.toolSupport/>

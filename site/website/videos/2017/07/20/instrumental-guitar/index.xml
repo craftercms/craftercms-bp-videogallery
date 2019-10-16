@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/page-video</content-type>
+	<display-template>/templates/web/pages/video-page.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>1aca</objectGroupId>
+	<objectId>1aca60cd-f4cd-5712-5676-dc3db96c4ec9</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>instrumental-guitar</folder-name>
+	<internal-name>Instrumental Guitar</internal-name>
+	<title_t tokenized="true">Instrumental Guitar</title_t>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<description_t>All instrumental guitar video</description_t>
+	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
+	<categories_o item-list="true">	<item>	<key>/site/website/categories/music/index.xml</key>
+	<value>music</value>
+	<include>/site/website/categories/music/index.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="categoriesDS">	<key>/site/website/categories/music/instrumental/index.xml</key>
+	<value>instrumental</value>
+	<include>/site/website/categories/music/instrumental/index.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></categories_o>
+	<featured_b>true</featured_b>
+	<createdDate>2018-01-22T22:30:30.445Z</createdDate>
+	<createdDate_dt>2018-01-22T22:30:30.445Z</createdDate_dt>
+	<lastModifiedDate>2019-10-14T16:33:11.298Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-14T16:33:11.298Z</lastModifiedDate_dt>
+	<tags_o item-list="true">	<item>	<tagName_t>instrumental</tagName_t>
+	<tagUrl_s>#</tagUrl_s>
+	</item>	<item>	<tagName_t>guitar</tagName_t>
+	<tagUrl_s>#</tagUrl_s>
+	</item></tags_o>
+	<author_t>Emmanuel</author_t>
+	<dateFormat_s>MM-dd-yyyy</dateFormat_s>
+	<duration_s>1:00</duration_s>
+	<thumbnail_s>/static-assets/images/wallpaper2.png</thumbnail_s>
+</page>

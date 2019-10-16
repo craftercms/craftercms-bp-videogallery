@@ -7,13 +7,15 @@
 	<file-name>index.xml</file-name>
 	<folder-name>metalvideo</folder-name>
 	<internal-name>metalvideo</internal-name>
-	<title>metalvideo</title>
-	<tags>metalvideo</tags>
+	<title_t>metalvideo</title_t>
+	<tags_o>	<item>	<tagName_t>metalvideo</tagName_t>
+	<tagUrl_s>#</tagUrl_s>
+	</item></tags_o>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<description>metalvideo</description>
-	<video>/static-assets/videos/big_buck_bunny.mp4</video>
-	<categories>	<item>	<key>/site/website/categories/music/rock/metal/index.xml</key>
+	<description_t>metalvideo</description_t>
+	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
+	<categories_o>	<item>	<key>/site/website/categories/music/rock/metal/index.xml</key>
 	<value>metal</value>
 	<include>/site/website/categories/music/rock/metal/index.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -25,14 +27,14 @@
 	<value>rock</value>
 	<include>/site/website/categories/music/rock/index.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></categories>
+	</item></categories_o>
 	<createdDate>2018-01-10T17:23:00.729Z</createdDate>
 	<createdDate_dt>2018-01-10T17:23:00.729Z</createdDate_dt>
 	<lastModifiedDate>2018-02-08T17:44:12.091Z</lastModifiedDate>
 	<lastModifiedDate_dt>2018-02-08T17:44:12.091Z</lastModifiedDate_dt>
-	<featured>true</featured>
-	<author>Emmanuel</author>
-	<duration>1:00</duration>
-	<dateFormat>MMMM dd, yyyy</dateFormat>
-	<thumbnail>/static-assets/images/background.png</thumbnail>
+	<featured_b>true</featured_b>
+	<author_t>Emmanuel</author_t>
+	<duration_s>1:00</duration_s>
+	<dateFormat_s>MMMM dd, yyyy</dateFormat_s>
+	<thumbnail_s>/static-assets/images/background.png</thumbnail_s>
 </page>

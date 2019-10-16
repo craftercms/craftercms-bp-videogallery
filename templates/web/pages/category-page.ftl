@@ -1,7 +1,6 @@
 <#import "/templates/web/layout/default-layout.ftl" as layout/>
 <#import "/templates/web/includes/utils.ftl" as utils/>
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-<#import "/templates/system/common/craftercms-common.ftl" as crafterCommon/>
 <#import "/templates/web/layout/video-list-layout.ftl" as videoList>
 
 <@layout.default>
@@ -14,7 +13,7 @@
             </div>
         </div>
         <div class="categories-types">           
-            <@videoList.videoList title= model.recentVideosLabel shouldSearch=true containerClass="recent-videos"/>
+            <@videoList.videoList title= model.recentVideosLabel_t shouldSearch=true containerClass="recent-videos"/>
         </div>
     </div>
     <div class="clear" style="margin-bottom: 14%;"> </div>

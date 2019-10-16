@@ -7,13 +7,15 @@
 	<file-name>index.xml</file-name>
 	<folder-name>rockvideo</folder-name>
 	<internal-name>rockVideo</internal-name>
-	<title>rockVideo</title>
-	<tags>rockVideo</tags>
+	<title_t>rockVideo</title_t>
+	<tags_o>	<item>	<tagName_t>rockvideo</tagName_t>
+	<tagUrl_s>#</tagUrl_s>
+	</item></tags_o>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<description>rockVideo</description>
-	<video>/static-assets/videos/big_buck_bunny.mp4</video>
-	<categories>	<item>	<key>/site/website/categories/music/rock/index.xml</key>
+	<description_t>rockVideo</description_t>
+	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
+	<categories_o>	<item>	<key>/site/website/categories/music/rock/index.xml</key>
 	<value>rock</value>
 	<include>/site/website/categories/music/rock/index.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -21,14 +23,14 @@
 	<value>music</value>
 	<include>/site/website/categories/music/index.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></categories>
+	</item></categories_o>
 	<createdDate>2018-01-10T17:21:36.047Z</createdDate>
 	<createdDate_dt>2018-01-10T17:21:36.047Z</createdDate_dt>
 	<lastModifiedDate>2018-02-08T17:45:10.773Z</lastModifiedDate>
 	<lastModifiedDate_dt>2018-02-08T17:45:10.773Z</lastModifiedDate_dt>
-	<featured>true</featured>
-	<author>Emmanuel</author>
-	<duration>1:00</duration>
-	<dateFormat>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</dateFormat>
-	<thumbnail>/static-assets/images/wallpaper2.png</thumbnail>
+	<featured_b>true</featured_b>
+	<author_t>Emmanuel</author_t>
+	<duration_s>1:00</duration_s>
+	<dateFormat_s>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</dateFormat_s>
+	<thumbnail_s>/static-assets/images/wallpaper2.png</thumbnail_s>
 </page>

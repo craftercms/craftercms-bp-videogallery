@@ -4,6 +4,8 @@
 	<objectType>page</objectType>
 	<content-type>/page/page-video</content-type>
 	<imageThumbnail>undefined</imageThumbnail>
+	<quickCreate>false</quickCreate>
+	<quickCreatePath></quickCreatePath>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
@@ -15,6 +17,12 @@
 			<label>Merge Strategy</label>
 			<value>inherit-levels</value>
 			<type>string</type>
+		</property>
+		<property>
+			<name>no-template-required</name>
+			<label>No Template Required</label>
+			<value></value>
+			<type>boolean</type>
 		</property>
 	</properties>
 	<sections>		<section>
@@ -120,7 +128,7 @@
 			<fields>
 				<field>
 					<type>input</type>
-					<id>title</id>
+					<id>title_t</id>
 					<iceId>visible</iceId>
 					<title>Title</title>
 					<description></description>
@@ -144,7 +152,7 @@
 						</property>
 						<property>
 							<name>tokenize</name>
-							<value>false</value>
+							<value>true</value>
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -163,7 +171,7 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>author</id>
+					<id>author_t</id>
 					<iceId>visible</iceId>
 					<title>Author</title>
 					<description></description>
@@ -206,7 +214,7 @@
 				</field>
 				<field>
 					<type>textarea</type>
-					<id>description</id>
+					<id>description_t</id>
 					<iceId>visible</iceId>
 					<title>Description</title>
 					<description></description>
@@ -249,7 +257,7 @@
 				</field>
 				<field>
 					<type>video-picker</type>
-					<id>video</id>
+					<id>video_s</id>
 					<iceId>visible</iceId>
 					<title>Video</title>
 					<description></description>
@@ -277,7 +285,7 @@
 				</field>
 				<field>
 					<type>image-picker</type>
-					<id>thumbnail</id>
+					<id>thumbnail_s</id>
 					<iceId>visible</iceId>
 					<title>Thumbnail</title>
 					<description></description>
@@ -325,7 +333,7 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>duration</id>
+					<id>duration_s</id>
 					<iceId>visible</iceId>
 					<title>Duration</title>
 					<description></description>
@@ -368,7 +376,7 @@
 				</field>
 				<field>
 					<type>dropdown</type>
-					<id>dateFormat</id>
+					<id>dateFormat_s</id>
 					<iceId>visible</iceId>
 					<title>Date Format</title>
 					<description></description>
@@ -401,7 +409,7 @@
 				</field>
 				<field>
 					<type>node-selector</type>
-					<id>categories</id>
+					<id>categories_o</id>
 					<iceId></iceId>
 					<title>Categories</title>
 					<description></description>
@@ -449,7 +457,7 @@
 				</field>
 				<field>
 					<type>repeat</type>
-					<id>tags</id>
+					<id>tags_o</id>
 					<iceId>visible</iceId>
 					<title>Tags</title>
 					<description></description>
@@ -470,7 +478,7 @@
 					<fields>
 				<field>
 					<type>input</type>
-					<id>tagName</id>
+					<id>tagName_t</id>
 					<iceId>visible</iceId>
 					<title>Tag Name</title>
 					<description></description>
@@ -513,7 +521,7 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>tagUrl</id>
+					<id>tagUrl_s</id>
 					<iceId>visible</iceId>
 					<title>Tag Url</title>
 					<description></description>
@@ -558,7 +566,7 @@
 				</field>
 				<field>
 					<type>checkbox</type>
-					<id>featured</id>
+					<id>featured_b</id>
 					<iceId>visible</iceId>
 					<title>Featured</title>
 					<description></description>

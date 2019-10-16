@@ -7,13 +7,15 @@
 	<file-name>index.xml</file-name>
 	<folder-name>rapvideo</folder-name>
 	<internal-name>rapvideo</internal-name>
-	<title>rapvideo</title>
-	<tags>rap</tags>
+	<title_t>rapvideo</title_t>
+	<tags_o>	<item>	<tagName_t>rapvideo</tagName_t>
+	<tagUrl_s>#</tagUrl_s>
+	</item></tags_o>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<description>rapvideo</description>
-	<video>/static-assets/videos/big_buck_bunny.mp4</video>
-	<categories>	<item>	<key>/site/website/categories/music/index.xml</key>
+	<description_t>rapvideo</description_t>
+	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
+	<categories_o>	<item>	<key>/site/website/categories/music/index.xml</key>
 	<value>music</value>
 	<include>/site/website/categories/music/index.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -21,14 +23,14 @@
 	<value>rap</value>
 	<include>/site/website/categories/music/rap/index.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></categories>
+	</item></categories_o>
 	<createdDate>2018-01-11T16:29:02.952Z</createdDate>
 	<createdDate_dt>2018-01-11T16:29:02.952Z</createdDate_dt>
 	<lastModifiedDate>2018-02-08T17:44:39.285Z</lastModifiedDate>
 	<lastModifiedDate_dt>2018-02-08T17:44:39.285Z</lastModifiedDate_dt>
-	<author>Emmanuel</author>
-	<duration>1:00</duration>
-	<dateFormat>MMMM dd, yyyy</dateFormat>
-	<featured>false</featured>
-	<thumbnail>/static-assets/images/wallpaper2.png</thumbnail>
+	<author_t>Emmanuel</author_t>
+	<duration_s>1:00</duration_s>
+	<dateFormat_s>MMMM dd, yyyy</dateFormat_s>
+	<featured_b>false</featured_b>
+	<thumbnail_s>/static-assets/images/wallpaper2.png</thumbnail_s>
 </page>

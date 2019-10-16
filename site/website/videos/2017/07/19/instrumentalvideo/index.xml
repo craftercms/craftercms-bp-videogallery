@@ -5,15 +5,17 @@
 	<objectGroupId>77a1</objectGroupId>
 	<objectId>77a14a6d-2878-6347-18b0-c2c26dccd1b3</objectId>
 	<internal-name>instrumentalvideo</internal-name>
-	<title>instrumentalvideo</title>
-	<tags>instrumentalvideo</tags>
+	<title_t>instrumentalvideo</title_t>
+	<tags_o>	<item>	<tagName_t>instrumentalvideo</tagName_t>
+	<tagUrl_s>#</tagUrl_s>
+	</item></tags_o>
 	<file-name>index.xml</file-name>
 	<folder-name>instrumentalvideo</folder-name>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<description>instrumentalvideo</description>
-	<video>/static-assets/videos/big_buck_bunny.mp4</video>
-	<categories>	<item>	<key>/site/website/categories/music/instrumental/index.xml</key>
+	<description_t>instrumentalvideo</description_t>
+	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
+	<categories_o>	<item>	<key>/site/website/categories/music/instrumental/index.xml</key>
 	<value>instrumental</value>
 	<include>/site/website/categories/music/instrumental/index.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -21,14 +23,14 @@
 	<value>music</value>
 	<include>/site/website/categories/music/index.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></categories>
+	</item></categories_o>
 	<createdDate>2018-01-10T17:38:19.960Z</createdDate>
 	<createdDate_dt>2018-01-10T17:38:19.960Z</createdDate_dt>
 	<lastModifiedDate>2018-02-08T17:58:53.298Z</lastModifiedDate>
 	<lastModifiedDate_dt>2018-02-08T17:58:53.298Z</lastModifiedDate_dt>
-	<featured>false</featured>
-	<author>Emmanuel</author>
-	<duration>1:00</duration>
-	<dateFormat>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</dateFormat>
-	<thumbnail>/static-assets/images/background.png</thumbnail>
+	<featured_b>false</featured_b>
+	<author_t>Emmanuel</author_t>
+	<duration_s>1:00</duration_s>
+	<dateFormat_s>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</dateFormat_s>
+	<thumbnail_s>/static-assets/images/background.png</thumbnail_s>
 </page>

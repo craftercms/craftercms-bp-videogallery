@@ -7,24 +7,26 @@
 	<file-name>index.xml</file-name>
 	<folder-name>test03</folder-name>
 	<internal-name>test03</internal-name>
-	<title>test03</title>
-	<tags>test03</tags>
+	<title_t>test03</title_t>
+	<tags_o>	<item>	<tagName_t>test03</tagName_t>
+	<tagUrl_s>#</tagUrl_s>
+	</item></tags_o>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<description>test03</description>
-	<video>/static-assets/videos/big_buck_bunny.mp4</video>
-	<categories>	<item>	<key>/site/website/categories/test/index.xml</key>
+	<description_t>test03</description_t>
+	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
+	<categories_o>	<item>	<key>/site/website/categories/test/index.xml</key>
 	<value>test</value>
 	<include>/site/website/categories/test/index.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></categories>
+	</item></categories_o>
 	<createdDate>2018-01-10T17:06:45.505Z</createdDate>
 	<createdDate_dt>2018-01-10T17:06:45.505Z</createdDate_dt>
 	<lastModifiedDate>2018-02-08T17:45:52.912Z</lastModifiedDate>
 	<lastModifiedDate_dt>2018-02-08T17:45:52.912Z</lastModifiedDate_dt>
-	<author>Emmanuel</author>
-	<duration>1:00</duration>
-	<dateFormat>MMMM dd, yyyy</dateFormat>
-	<featured>false</featured>
-	<thumbnail>/static-assets/images/background.png</thumbnail>
+	<author_t>Emmanuel</author_t>
+	<duration_s>1:00</duration_s>
+	<dateFormat_s>MMMM dd, yyyy</dateFormat_s>
+	<featured_b>false</featured_b>
+	<thumbnail_s>/static-assets/images/background.png</thumbnail_s>
 </page>

@@ -13,7 +13,7 @@
 	<createdDate_dt>2018-01-24T16:56:28.132Z</createdDate_dt>
 	<lastModifiedDate>2018-01-31T17:54:59.261Z</lastModifiedDate>
 	<lastModifiedDate_dt>2018-01-31T17:54:59.261Z</lastModifiedDate_dt>
-	<mainInformation>&lt;div class="title-underline"&gt;
+	<mainInformation_html>&lt;div class="title-underline"&gt;
 &lt;h2 class="head1" style="text-align: left;"&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galleyLorem Ipsum is simply dummy text of the printing.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galleyLorem Ipsum is simply dummy text of the printing.&lt;/h2&gt;
 &lt;/div&gt;
 &lt;div id="dnn_ctr493_ContentPane" class="cont"&gt;
@@ -25,8 +25,8 @@
 &lt;p style="text-align: left;"&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galleyLorem Ipsum is simply dummy text of the printing.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galleyLorem Ipsum is simply dummy text of the printing.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</mainInformation>
-	<mainInformationTitle>About Our Site</mainInformationTitle>
-	<image>/static-assets/images/g1.jpg</image>
-	<imageTitle>Just Keep Watching</imageTitle>
+&lt;/div&gt;</mainInformation_html>
+	<mainInformationTitle_t>About Our Site</mainInformationTitle_t>
+	<image_s>/static-assets/images/g1.jpg</image_s>
+	<imageTitle_t>Just Keep Watching</imageTitle_t>
 </page>

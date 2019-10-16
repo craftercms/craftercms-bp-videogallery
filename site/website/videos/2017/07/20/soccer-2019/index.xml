@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/page-video</content-type>
+	<display-template>/templates/web/pages/video-page.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>8cad</objectGroupId>
+	<objectId>8cad3dda-5118-6f05-1638-57314c5ddade</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>soccer-2019</folder-name>
+	<internal-name>Soccer 2019</internal-name>
+	<title_t tokenized="true">Soccer 2019</title_t>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<description_t>Soccer 2019 is the greatest soccer game with awesome movements and a lot of teams from all over the world</description_t>
+	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
+	<categories_o item-list="true">	<item datasource="categoriesDS">	<key>/site/website/categories/technology/index.xml</key>
+	<value>Technology</value>
+	<include>/site/website/categories/technology/index.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="categoriesDS">	<key>/site/website/categories/technology/games/index.xml</key>
+	<value>games</value>
+	<include>/site/website/categories/technology/games/index.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></categories_o>
+	<featured_b>true</featured_b>
+	<tags_o item-list="true">	<item>	<tagName_t>soccer</tagName_t>
+	<tagUrl_s>#</tagUrl_s>
+	</item>	<item>	<tagName_t>sports</tagName_t>
+	<tagUrl_s>#</tagUrl_s>
+	</item></tags_o>
+	<createdDate>2018-01-26T16:41:44.548Z</createdDate>
+	<createdDate_dt>2018-01-26T16:41:44.548Z</createdDate_dt>
+	<lastModifiedDate>2019-10-14T16:56:04.606Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-14T16:56:04.606Z</lastModifiedDate_dt>
+	<dateFormat_s>yyyy-MM-dd</dateFormat_s>
+	<author_t>Emmanuel</author_t>
+	<thumbnail_s>/static-assets/images/background.png</thumbnail_s>
+	<duration_s>1:00</duration_s>
+</page>

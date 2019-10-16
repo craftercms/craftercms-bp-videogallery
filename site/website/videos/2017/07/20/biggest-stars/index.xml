@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/page-video</content-type>
+	<display-template>/templates/web/pages/video-page.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>776b</objectGroupId>
+	<objectId>776b2a11-c5cf-64c6-97d0-56c0aae9e89e</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>biggest-stars</folder-name>
+	<internal-name>Biggest Stars</internal-name>
+	<title_t tokenized="true">Biggest Stars in the Universe</title_t>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<description_t>The Biggest Stars in the Universe, comparison of planet Sizes, Star Sizes.</description_t>
+	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
+	<categories_o item-list="true">	<item>	<key>/site/website/categories/science/index.xml</key>
+	<value>Science</value>
+	<include>/site/website/categories/science/index.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="categoriesDS">	<key>/site/website/categories/science/astronomy/index.xml</key>
+	<value>Astronomy</value>
+	<include>/site/website/categories/science/astronomy/index.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></categories_o>
+	<featured_b>true</featured_b>
+	<tags_o item-list="true">	<item>	<tagName_t>stars</tagName_t>
+	<tagUrl_s>#</tagUrl_s>
+	</item>	<item>	<tagName_t>science</tagName_t>
+	<tagUrl_s>#</tagUrl_s>
+	</item></tags_o>
+	<createdDate>2018-01-25T23:33:10.815Z</createdDate>
+	<createdDate_dt>2018-01-25T23:33:10.815Z</createdDate_dt>
+	<lastModifiedDate>2019-10-14T16:41:11.287Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-14T16:41:11.287Z</lastModifiedDate_dt>
+	<author_t>Emmanuel</author_t>
+	<dateFormat_s>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</dateFormat_s>
+	<duration_s>1:00</duration_s>
+	<thumbnail_s>/static-assets/images/wallpaper2.png</thumbnail_s>
+</page>

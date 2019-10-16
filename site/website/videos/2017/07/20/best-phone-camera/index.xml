@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/page-video</content-type>
+	<display-template>/templates/web/pages/video-page.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>5a18</objectGroupId>
+	<objectId>5a18a25c-f7ac-28a5-31a3-64f13cc40aec</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>best-phone-camera</folder-name>
+	<internal-name>Best Phone Camera</internal-name>
+	<title_t tokenized="true">Best Phone Camera</title_t>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<description_t>Is this phone camera the best one ever created? Let's find out in this comparison!</description_t>
+	<video_s>/static-assets/videos/big_buck_bunny.mp4</video_s>
+	<categories_o item-list="true">	<item>	<key>/site/website/categories/technology/index.xml</key>
+	<value>Technology</value>
+	<include>/site/website/categories/technology/index.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="categoriesDS">	<key>/site/website/categories/technology/phones/index.xml</key>
+	<value>phones</value>
+	<include>/site/website/categories/technology/phones/index.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></categories_o>
+	<featured_b>true</featured_b>
+	<tags_o item-list="true">	<item>	<tagName_t>phone</tagName_t>
+	<tagUrl_s>#</tagUrl_s>
+	</item>	<item>	<tagName_t>camera</tagName_t>
+	<tagUrl_s>#</tagUrl_s>
+	</item></tags_o>
+	<createdDate>2018-01-22T22:33:04.040Z</createdDate>
+	<createdDate_dt>2018-01-22T22:33:04.040Z</createdDate_dt>
+	<lastModifiedDate>2019-10-14T16:58:15.830Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-14T16:58:15.830Z</lastModifiedDate_dt>
+	<author_t>Emmanuel</author_t>
+	<dateFormat_s>EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'</dateFormat_s>
+	<duration_s>1:00</duration_s>
+	<thumbnail_s>/static-assets/images/background.png</thumbnail_s>
+</page>

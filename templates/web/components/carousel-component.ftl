@@ -1,4 +1,3 @@
-<#import "/templates/system/common/craftercms-common.ftl" as crafterCommon/>
 <#import "/templates/web/navigation2/navigation.ftl" as nav/>
 <#import "/templates/web/includes/utils.ftl" as utils/>
 
@@ -12,33 +11,34 @@
 <div class="slider">
   <#list listVideos as video>
     <div class="grid">
-      <h3>${video.src.queryValue('title')}</h3>
-      	<#assign posterImage="">
-      	<#if video.src.queryValue('thumbnail')??>
-        	<#assign posterImage="${video.src.queryValue('thumbnail')}">
-        </#if>
-          <video id ="vid-carousel-${video.src.queryValue('folder-name')}" class="video-carousel" poster="${posterImage}" preload="auto">
-            	<source src="${video.src.queryValue('video')}" type="video/mp4">
-                <source src="${video.src.queryValue('video')}" type="video/webm">
-            	<p>Your browser does not support H.264/MP4.</p>
-          </video>
-          <div class="carousel-player-container" id="player-carousel-${video.src.queryValue('folder-name')}">
-          		<span></span>
-          </div>
-       	  <div class="watch" class="time-video-carousel">
-                <a href="${utils.renderURL(video.src.storeUrl)}">Watch now</a>
-          </div>
-      <div class="time" id="time-carousel-${video.src.queryValue('folder-name')}">
-        <span class= "time-video-carousel" id="span-carousel-${video.src.queryValue('folder-name')}">${video.src.queryValue('duration')}</span>
+      <h3>${video.title_t}</h3>
+      <#assign posterImage="">
+      <#if video.thumbnail_s??>
+        <#assign posterImage="${video.thumbnail_s}">
+      </#if>
+      <video id ="vid-carousel-${video['folder-name']}" class="video-carousel" poster="${posterImage}" preload="auto">
+        <source src="${video.video_s}" type="video/mp4">
+          <source src="${video.video_s}" type="video/webm">
+        <p>Your browser does not support H.264/MP4.</p>
+      </video>
+
+      <div class="carousel-player-container" id="player-carousel-${video['folder-name']}">
+        <span></span>
+      </div>
+      <div class="watch" class="time-video-carousel">
+        <a href="${utils.renderURL(video.localId)}" data-test="">Watch now</a>
+      </div>
+      <div class="time" id="time-carousel-${video['folder-name']}">
+        <span class= "time-video-carousel" id="span-carousel-${video['folder-name']}">${video.duration_s}</span>
       </div>
       <div class="grid-info">
         <div class="clear"> </div>        
         <div class="lables">
           <p>Tags:
-          	<#if video.metaData.tags??>
-                  <#list video.metaData.tags as tag>
+          	<#if video.tags_o.item??>
+                  <#list video.tags_o.item as tag>
                   	<#if tag??>
-                      <a onClick="categoryRedirect('${tag}')" title="Go to 'Watch now' for more information">${tag}</a>,
+                      <a onClick="categoryRedirect('${tag.tagName_t}')" title="Go to 'Watch now' for more information">${tag.tagName_t}</a>,
                     </#if>
                   </#list>
                   <#else>

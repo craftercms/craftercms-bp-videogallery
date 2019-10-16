@@ -10,22 +10,22 @@
 	<createdDate_dt>2017-7-17T19:50:55.000Z</createdDate_dt>
 	<lastModifiedDate>2018-01-29T18:16:21.165Z</lastModifiedDate>
 	<lastModifiedDate_dt>2018-01-29T18:16:21.165Z</lastModifiedDate_dt>
-	<defaultHeader>	<item>	<key>/site/components/common/default-header.xml</key>
+	<defaultHeader_o>	<item>	<key>/site/components/common/default-header.xml</key>
 	<value>Default Header</value>
 	<include>/site/components/common/default-header.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></defaultHeader>
-	<defaultFooter>	<item>	<key>/site/components/common/default-footer.xml</key>
+	</item></defaultHeader_o>
+	<defaultFooter_o>	<item>	<key>/site/components/common/default-footer.xml</key>
 	<value>Default Footer</value>
 	<include>/site/components/common/default-footer.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></defaultFooter>
-	<recentVideosLabel>Videos</recentVideosLabel>
-	<mostViewVideosLabel>Most View Videos</mostViewVideosLabel>
-	<contactEmails>	<item>	<email>emmanuel.hidalgo@rivetlogic.com</email>
-	</item>	<item>	<email>emmanuel_1693@hotmail.es</email>
-	</item></contactEmails>
-	<shareinsocialnetworks>	<item>	<key>googleplus</key>
+	</item></defaultFooter_o>
+	<recentVideosLabel_t>Videos</recentVideosLabel_t>
+	<mostViewVideosLabel_t>Most View Videos</mostViewVideosLabel_t>
+	<contactEmails_o>	<item>	<email_s>emmanuel.hidalgo@rivetlogic.com</email_s>
+	</item>	<item>	<email_s>emmanuel_1693@hotmail.es</email_s>
+	</item></contactEmails_o>
+	<shareinsocialnetworks_o>	<item>	<key>googleplus</key>
 	<value_smv>Google Plus</value_smv>
 	</item>	<item>	<key>facebook</key>
 	<value_smv>Facebook</value_smv>
@@ -37,7 +37,7 @@
 	<value_smv>Email</value_smv>
 	</item>	<item>	<key>whatsapp</key>
 	<value_smv>Whatsapp</value_smv>
-	</item></shareinsocialnetworks>
-	<latitude>9.937811</latitude>
-	<longitude>-84.093018</longitude>
+	</item></shareinsocialnetworks_o>
+	<latitude_s>9.937811</latitude_s>
+	<longitude_s>-84.093018</longitude_s>
 </component>

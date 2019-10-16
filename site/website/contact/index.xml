@@ -13,17 +13,17 @@
 	<createdDate_dt>2017-12-29T17:39:44.000Z</createdDate_dt>
 	<lastModifiedDate>2017-12-29T20:31:12.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-12-29T20:31:12.000Z</lastModifiedDate_dt>
-	<contactFormTitle>Contact Us</contactFormTitle>
-	<locationTitle>Locate us </locationTitle>
-	<informationTitle>Company Info</informationTitle>
-	<buttonSubmitTitle>Send</buttonSubmitTitle>
-	<contactNameLabel>Name</contactNameLabel>
-	<contactEmailLabel>Email</contactEmailLabel>
-	<contactMobileLabel>Mobile</contactMobileLabel>
-	<contactSubjectLabel>Subject</contactSubjectLabel>
-	<companyMainAddress>Los Angeles</companyMainAddress>
-	<companySecondAddress>str test, addriss test</companySecondAddress>
-	<companyPhone>8888888</companyPhone>
-	<companyFax>9999999</companyFax>
-	<companyEmail>test@test.com</companyEmail>
+	<contactFormTitle_t>Contact Us</contactFormTitle_t>
+	<locationTitle_t>Locate us </locationTitle_t>
+	<informationTitle_t>Company Info</informationTitle_t>
+	<buttonSubmitTitle_t>Send</buttonSubmitTitle_t>
+	<contactNameLabel_t>Name</contactNameLabel_t>
+	<contactEmailLabel_t>Email</contactEmailLabel_t>
+	<contactMobileLabel_t>Mobile</contactMobileLabel_t>
+	<contactSubjectLabel_t>Subject</contactSubjectLabel_t>
+	<companyMainAddress_t>Los Angeles</companyMainAddress_t>
+	<companySecondAddress_t>str test, addriss test</companySecondAddress_t>
+	<companyPhone_t>8888888</companyPhone_t>
+	<companyFax_t>9999999</companyFax_t>
+	<companyEmail_t>test@test.com</companyEmail_t>
 </page>

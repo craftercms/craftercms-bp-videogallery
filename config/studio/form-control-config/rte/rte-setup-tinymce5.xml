@@ -25,7 +25,7 @@
         <id>generic</id> <!-- This starts a profile configuration -->
         
         <rteStylesheets> <!-- This informs the RTE to use the CSS files -->
-            <!-- <link>/static-assets/css/rte/rte.css</link> -->
+            <link>/static-assets/css/style.css</link>
         </rteStylesheets>
         
         <rteStyleOverride>

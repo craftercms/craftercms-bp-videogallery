@@ -37,7 +37,12 @@
     </script>
 
     <script id="video-table-template" type="text/x-handlebars-template">
-    	<div class = "grid" <@studio.iceAttr  path="{{localId}}" />>
+    	<div class = "grid" 
+            <@studio.iceAttr  
+              path="{{localId}}"
+              embeddedItemId="{{localId}}" 
+            />
+        >
             <h3>{{title_t}}</h3>
             <video id="vid-table-{{folder-name}}" class="video-table" poster="{{thumbnail_s}}" preload="auto">
                 <source src="{{video_s}}" type="video/mp4">

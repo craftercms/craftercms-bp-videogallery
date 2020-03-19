@@ -37,32 +37,10 @@
     </script>
 
     <script id="video-table-template" type="text/x-handlebars-template">
-    	<div class = "grid" <@studio.iceAttr  path="{{localId}}" />>
-            <h3>{{title_t}}</h3>
-            <video id="vid-table-{{folder-name}}" class="video-table" poster="{{thumbnail_s}}" preload="auto">
-                <source src="{{video_s}}" type="video/mp4">
-                <p>Your browser does not support H.264/mp4</p>
-            </video>
-            <div class="table-player-container" id="player-table-{{folder-name}}">
-                <span><span>
-            </div>
-            <div class="watch" class="time-video-table">
-                <a href="{{videoUrl}}" class="share-anchor">Watch now</a>
-            </div>
-            <div class="time" class="time-video-table" id="time-table-{{folder-name}}">
-                <span id="span-table-{{folder-name}}">{{duration_s}}</span>
-            </div>
-            <div class="grid-info">
-                <div class="clear"></div>
-                <div class="lables">
-                    <p>Tags:
-                         {{#each tags}}
-    						<a class="generic-tag" onClick="categoryRedirect('{{this.tagName_t}}')" title="Go to 'Watch now' for more information">{{this.tagName_t}}</a>
-  						 {{/each}}
-                    </p>
-                </div>
-            </div>
-         </div>
+        <h3>{{localId}}</h3>
+        <h3>{{title_t}}</h3>
+
+
     </script>
     
     <script id="no-results-table-template" type="text/x-handlebars-template">

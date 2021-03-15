@@ -53,7 +53,7 @@
       </div>
       <div class="col span_2_of_3">
         <div class="contact-form">
-					<@studio.h3 $field="contactFormTitle_tzzzzzzz">
+					<@studio.h3 $field="contactFormTitle_t">
 						${contentModel.contactFormTitle_t}
 					</@studio.h3>
           <form id="contact" action="/doContact" method="post">

@@ -9,7 +9,7 @@
   License URL: http://creativecommons.org/licenses/by/3.0/
   -->
   <!DOCTYPE HTML>
-  <html>
+  <html data-craftercms-preview="${modePreview?c}">
   <head>
     <title>Videostube Website Template | Home :: W3layouts</title>
     <link rel="shortcut icon" type="image/x-icon" href="/static-assets/images/pageicon.png" />
@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="/static-assets/css/slick/slick-theme.css" />
 
   </head>
-  <body>
+  <body >
     <!----start-wrap---->
     <div class="wrap">
       <header id="header">
@@ -71,10 +71,9 @@
     <script src="/static-assets/js/slick.min.js"></script>
 
     <script src="https://unpkg.com/rxjs@6.6.0/bundles/rxjs.umd.min.js"></script>
-    <script src="/static-assets/js/craftercms-sdk/utils/utils.umd.js"></script>
-    <script src="/static-assets/js/craftercms-sdk/classes/classes.umd.js"></script>
-    <script src="/static-assets/js/craftercms-sdk/content/content.umd.js"></script>
-    <script src="/static-assets/js/craftercms-sdk/search/search.umd.js"></script>
+    <script src="/static-assets/js/craftercms-sdk/utils/utils.umd.min.js"></script>
+    <script src="/static-assets/js/craftercms-sdk/classes/classes.umd.min.js"></script>
+    <script src="/static-assets/js/craftercms-sdk/content/content.umd.min.js"></script>
 
     <script src="/static-assets/js/main.js"></script>
     <script>

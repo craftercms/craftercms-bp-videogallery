@@ -70,7 +70,12 @@ function generateVideoUrl(url) {
 }
 
 function generateGridVideos(data) {
+  const iceOn = $('html').hasClass('craftercms-ice-on');
   var container = $("#gridContainer")
+
+  if (iceOn) {
+    deregisterItems(container[0]);
+  }
 
   container.empty();
   if (data.length === 0) {
@@ -80,29 +85,33 @@ function generateGridVideos(data) {
     var template = Handlebars.compile(source);
     var context = {};
     var html = template(context);
-    container.append(html)
+    container.append(html);
     return
   }
   const videos = data.responseVideos.map(function (video) {
-    video.videoUrl = generateVideoUrl(video.localId)
+    const { parseDescriptor } = craftercms.content;
+    const model = parseDescriptor(video);
+    video.iceAttrs = getICE(model);
+    video.titleIceAttrs = getICE(model, 'title_t');
+    video.videoIceAttrs = getICE(model, 'video_s');
+
+    video.videoUrl = generateVideoUrl(video.localId);
     if ( video.tags_o ) {
       video.tags = Array.isArray(video.tags_o.item) ? video.tags_o.item : [video.tags_o.item];
     }
-    var content = document.getElementById("video-table-template")
-    if (!content) return
+    var content = document.getElementById("video-table-template");
+    if (!content) return;
     var source = content.innerHTML;
     var template = Handlebars.compile(source);
-    var context = video;
-    var html = template(context);
+    var html = template(video);
         
     return html;
-  })
-  container.append(videos)
+  });
+  container.append(videos);
 
-  $(".video-table").on("durationchange", function () {
-    var tablePlayer = videoHandler('.table-player-container');
-  })
-
+  if (iceOn) {
+    registerItems(container[0]);
+  }
 }
 
 function searchVideos(start, videoText, path) {
@@ -151,9 +160,72 @@ function requestVideos(start, categoryPath) {
 }
 
 function categoryRedirect(tagName) {
-  currentSearchVale = tagName
-  localStorage.removeItem('jstree');
-  localStorage.setItem('tagName', tagName)
-  window.location.replace("/categories");
+  const iceOn = $('html').hasClass('craftercms-ice-on');
 
+  if (!iceOn) {
+    currentSearchVale = tagName;
+    localStorage.removeItem('jstree');
+    localStorage.setItem('tagName', tagName);
+    window.location.replace("/categories");
+  }
+}
+
+function getICE(model, fieldId) {
+  const iceAttrs = craftercms.guest.getICEAttributes({
+    model,
+    isAuthoring: isAuthoring(),
+    ...(
+      fieldId
+      ? { fieldId }
+      : {}
+    )
+  });
+
+  let iceAttrsString = '';
+  Object.keys(iceAttrs).forEach(key => {
+    iceAttrsString += `${key}="${iceAttrs[key]}" `;
+  });
+
+  return iceAttrsString;
+}
+
+function registerItems(container) {
+  container.querySelectorAll('[data-craftercms-model-id]').forEach((element) => {
+    let //
+      path = element.getAttribute('data-craftercms-model-path'),
+      modelId = element.getAttribute('data-craftercms-model-id'),
+      fieldId = element.getAttribute('data-craftercms-field-id'),
+      index = element.getAttribute('data-craftercms-index'),
+      label = element.getAttribute('data-craftercms-label');
+
+    if ((index !== null) && (index !== undefined) && !index.includes('.')) {
+      // Unsure if somewhere, the system relies on the index being an integer/number.
+      // Affected inventory:
+      // - Guest.moveComponent() - string type handled
+      index = parseInt(index, 10);
+    }
+
+    craftercms?.guest?.elementRegistry.register({ element, modelId, fieldId, index, label, path });
+  });
+}
+
+function deregisterItems(container) {
+  container.querySelectorAll('[data-craftercms-model-id]').forEach((el) => {
+    const record = craftercms.guest.elementRegistry.fromElement(el);
+
+    // This is supposed to be before updating DOM, but query is returning both old and new elements
+    if (record) {
+      craftercms?.guest?.elementRegistry.deregister(record.id);
+    }
+  });
+}
+
+function isAuthoring() {
+  const html = document.documentElement;
+  const attr = html.getAttribute('data-craftercms-preview');
+
+  return (
+    attr === '${modePreview?c}' || // Otherwise disable/enable if you want to see pencils in dev server.
+    attr === 'true'
+  );
 }

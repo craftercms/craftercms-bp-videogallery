@@ -199,9 +199,6 @@ function registerItems(container) {
       label = element.getAttribute('data-craftercms-label');
 
     if ((index !== null) && (index !== undefined) && !index.includes('.')) {
-      // Unsure if somewhere, the system relies on the index being an integer/number.
-      // Affected inventory:
-      // - Guest.moveComponent() - string type handled
       index = parseInt(index, 10);
     }
 

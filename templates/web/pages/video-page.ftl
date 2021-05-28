@@ -1,29 +1,29 @@
 <#import "/templates/web/layout/default-layout.ftl" as layout/>
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <@layout.default>
   <div class="content">
     <div class="inner-page">
       <div class="searchbar">
         <div class="search-left">
-          <@studio.p $field="title_t">
+          <@crafter.p $field="title_t">
             ${contentModel.title_t}
-          </@studio.p>
+          </@crafter.p>
         </div>
         <div class="clear"></div>
       </div>
       <div class="title">
-        <@studio.h3 $field="title_t">
+        <@crafter.h3 $field="title_t">
           ${model.title_t}
-        </@studio.h3>
+        </@crafter.h3>
         <ul>
           <li>
             <h4>By:</h4>
           </li>
           <li>
-            <@studio.a $field="author_t" href="#">
+            <@crafter.a $field="author_t" href="#">
               ${contentModel.author_t!""}
-            </@studio.a>
+            </@crafter.a>
           </li>
         </ul>
       </div>
@@ -32,10 +32,10 @@
         <#if contentModel.thumbnail_s??>
           <#assign posterImage="${contentModel.thumbnail_s}">
         </#if>
-        <@studio.video $field="video_s" controls="true" poster=(posterImage) preload="auto">
+        <@crafter.video $field="video_s" controls="true" poster=(posterImage) preload="auto">
           <source src="${model.video_s}" type="video/mp4">
           <p>Your browser does not support H.264/MP4.</p>
-        </@studio.video>
+        </@crafter.video>
       </div>
       <div class="viwes">
         <div class="view-links">
@@ -55,9 +55,9 @@
             </p>
           </li>
           <li>
-            <@studio.span $field="description_t">
+            <@crafter.span $field="description_t">
               ${model.description_t}
-            </@studio.span>
+            </@crafter.span>
           </li>
         </ul>
       </div>
@@ -72,9 +72,9 @@
                 <#assign index = tag?index>
                 <li>
                   <a onClick="categoryRedirect('${tag.tagName_t}')">
-                    <@studio.span $field="tags_o.tagName_t" $index=index>
+                    <@crafter.span $field="tags_o.tagName_t" $index=index>
                       ${tag.tagName_t}
-                    </@studio.span>
+                    </@crafter.span>
                   </a>,
                 </li>
               </#list>

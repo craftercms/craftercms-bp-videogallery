@@ -1,11 +1,11 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!----start-Header---->
-<@studio.componentRootTag class="header">
+<@crafter.componentRootTag class="header">
   <!----start-Logo---->
   <div class="logo">
     <a href="${model.headerImageUrl_s}">
-      <@studio.img
+      <@crafter.img
         $field="headerImage_s"
         src=(model.headerImage_s)
         title="logo"
@@ -36,5 +36,5 @@
 	</nav>
     <div class="clear"> </div>
     <!----End-top-nav---->
-</@studio.componentRootTag>
+</@crafter.componentRootTag>
 <!----End-Header---->

@@ -1,13 +1,13 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
-<@studio.componentRootTag>
+<@crafter.componentRootTag>
 <div class="footer">
   <div class="wrap">
 
     <div class="box1">
-      <@studio.h4 $field="socialTitle_t">
+      <@crafter.h4 $field="socialTitle_t">
         ${contentModel.socialTitle_t}
-      </@studio.h4>
+      </@crafter.h4>
       <ul class="social">
         <#list contentModel.socialOptions_o.item as media>
           <#if media.show_b >
@@ -29,4 +29,4 @@
     </p>
   </div>
 </#if>
-</@studio.componentRootTag>
+</@crafter.componentRootTag>

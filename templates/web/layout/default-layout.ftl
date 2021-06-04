@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <#include "/templates/web/includes/global.ftl" />
 
 <#macro default cstudioSupport = true>
@@ -28,9 +28,10 @@
     <link rel="stylesheet" href="/static-assets/css/jstree/style.css" />
     <link rel="stylesheet" href="/static-assets/css/slick/slick.css" />
     <link rel="stylesheet" href="/static-assets/css/slick/slick-theme.css" />
-
+    <@crafter.head/>
   </head>
   <body >
+    <@crafter.body_top/>
     <!----start-wrap---->
     <div class="wrap">
       <header id="header">
@@ -120,7 +121,7 @@
         lng: ${contentModel.longitude_s}
       });
     </script>
-    <@studio.initPageBuilder/>
+    <@crafter.body_bottom/>
   </body>
   </html>
 </#macro>

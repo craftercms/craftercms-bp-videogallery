@@ -1,6 +1,6 @@
 <#import "/templates/web/navigation2/navigation.ftl" as nav/>
 <#import "/templates/web/includes/utils.ftl" as utils/>
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <#macro carousel listVideos>
 <div class="searchbar">
@@ -11,20 +11,20 @@
 </div>
 <div class="slider">
   <#list listVideos as video>
-    <@studio.componentRootTag $model=video class="grid">
-      <@studio.h3 $model=video $field="title_t">
+    <@crafter.componentRootTag $model=video class="grid">
+      <@crafter.h3 $model=video $field="title_t">
         ${video.title_t}
-      </@studio.h3>
+      </@crafter.h3>
       <#assign posterImage="">
       <#if video.thumbnail_s??>
         <#assign posterImage="${video.thumbnail_s}">
       </#if>
 
-      <@studio.video $model=video $field="video_s" id ="vid-carousel-${video['folder-name']}" class="video-carousel" poster="${posterImage}" preload="auto">
+      <@crafter.video $model=video $field="video_s" id ="vid-carousel-${video['folder-name']}" class="video-carousel" poster="${posterImage}" preload="auto">
         <source src="${video.video_s}" type="video/mp4">
         <source src="${video.video_s}" type="video/webm">
         <p>Your browser does not support H.264/MP4.</p>
-      </@studio.video>
+      </@crafter.video>
 
       <div class="carousel-player-container" id="player-carousel-${video['folder-name']}">
         <span></span>
@@ -44,9 +44,9 @@
               <#assign index = tag?index>
               <#if tag??>
                 <a onClick="categoryRedirect('${tag.tagName_t}')" title="Go to 'Watch now' for more information">
-                  <@studio.span $model=video $field="tags_o.tagName_t" $index=index>
+                  <@crafter.span $model=video $field="tags_o.tagName_t" $index=index>
                     ${tag.tagName_t}
-                  </@studio.span>
+                  </@crafter.span>
                 </a>,
               </#if>
             </#list>
@@ -56,7 +56,7 @@
           </p>
         </div>
       </div>
-    </@studio.componentRootTag>
+    </@crafter.componentRootTag>
   </#list>
   </div>
 </#macro>

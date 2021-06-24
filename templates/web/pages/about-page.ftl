@@ -21,9 +21,9 @@
 					<@crafter.h3 $field="mainInformationTitle_t">
 						${contentModel.mainInformationTitle_t}
 					</@crafter.h3>
-					<@crafter.tag $field="mainInformation_html">
+					<@crafter.div $field="mainInformation_html">
 						${contentModel.mainInformation_html}
-					</@crafter.tag>
+					</@crafter.div>
 				</div>
 			</div>
 		</div>

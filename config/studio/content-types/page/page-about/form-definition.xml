@@ -163,7 +163,7 @@
                </constraints>
             </field>
             <field>
-               <type>rte-tinymce5</type>
+               <type>rte</type>
                <id>mainInformation_html</id>
                <iceId>visible</iceId>
                <title>Main Information</title>

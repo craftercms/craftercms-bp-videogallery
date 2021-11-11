@@ -1,7 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!----start-Header---->
-<@crafter.componentRootTag class="header">
+<@crafter.div class="header">
   <!----start-Logo---->
   <div class="logo">
     <a href="${model.headerImageUrl_s}">
@@ -36,5 +36,5 @@
 	</nav>
     <div class="clear"> </div>
     <!----End-top-nav---->
-</@crafter.componentRootTag>
+</@crafter.div>
 <!----End-Header---->

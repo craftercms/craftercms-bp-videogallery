@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (C) 2007-2020 Crafter Software Corporation. All Rights Reserved.
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License version 3 as published by
+  ~ the Free Software Foundation.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
 <!-- sidebar.xml
 	This configuration file controls the SideBar in Crafter Studio. The SideBar is the left bar that shows
 	different projections of the content in addition to other tools to assist in content authoring.
@@ -28,6 +44,48 @@
 		</modulehook>
 	</contextNav>
 
+    Common module hooks include:
+           <modulehook>
+              <name>wcm-root-folder</name>           Type: Browsable content tree of descriptors and folders
+              <showDivider>true</showDivider>        Display a visual divider after the folder (true/false)
+              <params>
+                 <label>Pages</label>                Label
+                 <path>/site/website</path>          Path to root tree at. You mave multiple path elements
+                 <showRootItem>true</showRootItem>   Display the root folder (true/false)
+                 <onClick>preview</onClick>          Attempt to preview asset on click
+                 <roles>...</roles>                  (optional roles list that has access to the menu item)
+              </params>
+           </modulehook>
+
+           <modulehook>
+              <name>wcm-asset-folder</name>          Type: Browsable content tree of files and folders
+              <showDivider>true</showDivider>        Display a visual divider after the foler (true/false)
+              <params>
+                 <label>Static Assets</label>        Label
+                 <path>/static-assets</path>         Path to root tree at. You mave multiple path elements
+                 <showRootItem>true</showRootItem>   Display the root folder (true/false)
+                 <onClick>preview</onClick>          Attempt to prview asset on click
+                 <roles>...</roles>                  (optional roles list that has access to the menu item)
+              </params>
+           </modulehook>
+
+          <modulehook>
+            <name>dashboard</name>                   Type: Display a link to the Sites Dashboard
+            <params>
+              <label>Dashboard</label>               Label
+              <path>/site-dashboard</path>           Relative link to Sites Dashboard
+              <roles>...</roles>                     (optional roles list that has access to the menu item)
+            </params>
+          </modulehook>
+
+          <modulehook>
+            <name>site-config</name>                 Type: Display a link to the Site Config Panel
+            <params>
+              <label>Dashboard</label>               Label
+              <path>/site-dashboard</path>           Relative link to Site Config Panel
+              <roles>...</roles>                     (optional roles list that has access to the menu item)
+            </params>
+          </modulehook>
 -->
 <contextNav>
     <contexts>
@@ -49,7 +107,6 @@
                                 <!-- Site IA Pages -->
                                 <modulehook>
                                     <name>wcm-root-folder</name>
-                                    <showDivider>true</showDivider>
                                     <params>
                                         <label>Pages</label>
                                         <path>/site/website</path>
@@ -61,7 +118,6 @@
                                 <!-- Components -->
                                 <modulehook>
                                     <name>wcm-root-folder</name>
-                                    <showDivider>true</showDivider>
                                     <params>
                                         <label>Components</label>
                                         <path>/site/components</path>
@@ -72,7 +128,6 @@
                                 <!-- Static Assets -->
                                 <modulehook>
                                     <name>wcm-assets-folder</name>
-                                    <showDivider>true</showDivider>
                                     <params>
                                         <label>Static Assets</label>
                                         <path>/static-assets</path>
@@ -84,7 +139,6 @@
                                 <!-- Templates -->
                                 <modulehook>
                                     <name>wcm-assets-folder</name>
-                                    <showDivider>true</showDivider>
                                     <params>
                                         <label>Templates</label>
                                         <path>/templates</path>
@@ -96,7 +150,6 @@
                                 <!-- Scripts -->
                                 <modulehook>
                                     <name>wcm-assets-folder</name>
-                                    <showDivider>true</showDivider>
                                     <params>
                                         <label>Scripts</label>
                                         <path>/scripts</path>
@@ -108,7 +161,6 @@
                                 <!-- Site Config -->
                                 <modulehook>
                                     <name>site-config</name>
-                                    <showDivider>true</showDivider>
                                     <params>
                                         <roles>
                                             <role>admin</role>

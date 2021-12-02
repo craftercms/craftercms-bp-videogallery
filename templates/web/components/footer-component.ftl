@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<@crafter.componentRootTag>
+<@crafter.div>
 <div class="footer">
   <div class="wrap">
 
@@ -29,4 +29,4 @@
     </p>
   </div>
 </#if>
-</@crafter.componentRootTag>
+</@crafter.div>

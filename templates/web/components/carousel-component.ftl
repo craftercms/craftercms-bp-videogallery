@@ -11,7 +11,7 @@
 </div>
 <div class="slider">
   <#list listVideos as video>
-    <@crafter.componentRootTag $model=video class="grid">
+    <@crafter.div $model=video class="grid">
       <@crafter.h3 $model=video $field="title_t">
         ${video.title_t}
       </@crafter.h3>
@@ -56,7 +56,7 @@
           </p>
         </div>
       </div>
-    </@crafter.componentRootTag>
+    </@crafter.div>
   </#list>
   </div>
 </#macro>

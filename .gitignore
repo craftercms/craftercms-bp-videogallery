@@ -9,6 +9,8 @@
 # default HSQL database files for production mode
 /prodDb.*
 
+*.iml
+
 # general HSQL database files
 *Db.properties
 *Db.script

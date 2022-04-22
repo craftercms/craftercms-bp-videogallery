@@ -171,7 +171,7 @@ function categoryRedirect(tagName) {
 }
 
 function getICE(model, fieldId) {
-  const iceAttrs = craftercms.guest.getICEAttributes({
+  const iceAttrs = craftercms.xb.getICEAttributes({
     model,
     isAuthoring: isAuthoring(),
     ...(
@@ -202,17 +202,17 @@ function registerItems(container) {
       index = parseInt(index, 10);
     }
 
-    craftercms?.guest?.elementRegistry.register({ element, modelId, fieldId, index, label, path });
+    craftercms?.xb?.elementRegistry.register({ element, modelId, fieldId, index, label, path });
   });
 }
 
 function deregisterItems(container) {
   container.querySelectorAll('[data-craftercms-model-id]').forEach((el) => {
-    const record = craftercms.guest.elementRegistry.fromElement(el);
+    const record = craftercms.xb.elementRegistry.fromElement(el);
 
     // This is supposed to be before updating DOM, but query is returning both old and new elements
     if (record) {
-      craftercms?.guest?.elementRegistry.deregister(record.id);
+      craftercms?.xb?.elementRegistry.deregister(record.id);
     }
   });
 }

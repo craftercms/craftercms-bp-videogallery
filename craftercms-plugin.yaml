@@ -15,7 +15,7 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 24
+    patch: 25
   description: |
     A simple Video Gallery site blueprint.
   website:

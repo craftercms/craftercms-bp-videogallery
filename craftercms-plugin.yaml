@@ -15,7 +15,7 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 27
+    patch: 28
   description: |
     A simple Video Gallery site blueprint.
   website:
@@ -119,6 +119,12 @@ plugin:
     - major: 3
       minor: 1
       patch: 28
+    - major: 3
+      minor: 1
+      patch: 29
+    - major: 3
+      minor: 1
+      patch: 30
   crafterCmsEditions:
     - community
     - enterprise

@@ -8,11 +8,11 @@
         <div class="categories-list">
             <div class="content-sidebar">
                 <h4><img src="/static-assets/images/fi.png" alt="" />Categories</h4>
-                 	<div id="jstree"></div>   
+                 	<div id="jstree"></div>
             </div>
         </div>
-        <div class="categories-types">           
-            <@videoList.videoList title= model.recentVideosLabel_t shouldSearch=true containerClass="recent-videos"/>
+        <div class="categories-types">
+            <@videoList.videoList title= contentModel.recentVideosLabel_t shouldSearch=true containerClass="recent-videos"/>
         </div>
     </div>
     <div class="clear" style="margin-bottom: 14%;"> </div>

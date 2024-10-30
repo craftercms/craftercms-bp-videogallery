@@ -14,7 +14,7 @@
       </div>
       <div class="title">
         <@crafter.h3 $field="title_t">
-          ${model.title_t}
+          ${contentModel.title_t}
         </@crafter.h3>
         <ul>
           <li>
@@ -33,7 +33,7 @@
           <#assign posterImage="${contentModel.thumbnail_s}">
         </#if>
         <@crafter.video $field="video_s" controls="true" poster=(posterImage) preload="auto">
-          <source src="${model.video_s}" type="video/mp4">
+          <source src="${contentModel.video_s}" type="video/mp4">
           <p>Your browser does not support H.264/MP4.</p>
         </@crafter.video>
       </div>
@@ -56,7 +56,7 @@
           </li>
           <li>
             <@crafter.span $field="description_t">
-              ${model.description_t}
+              ${contentModel.description_t}
             </@crafter.span>
           </li>
         </ul>

@@ -4,10 +4,10 @@
 <@crafter.div class="header">
   <!----start-Logo---->
   <div class="logo">
-    <a href="${model.headerImageUrl_s}">
+    <a href="${contentModel.headerImageUrl_s}">
       <@crafter.img
         $field="headerImage_s"
-        src=(model.headerImage_s)
+        src=(contentModel.headerImage_s)
         title="logo"
       />
     </a>

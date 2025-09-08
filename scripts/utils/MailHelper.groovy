@@ -22,8 +22,7 @@ class MailHelper {
             mailSender.defaultEncoding = "UTF-8"
             mailSender.javaMailProperties = javaMailProperties
 
-        emailFactory = new EmailFactoryImpl()
-        emailFactory.mailSender = mailSender
+        emailFactory = new EmailFactoryImpl(mailSender)
         emailFactory.freeMarkerConfig = freeMarkerConfig
     }
 
